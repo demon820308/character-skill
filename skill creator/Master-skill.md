@@ -1,17 +1,28 @@
 ---
 name: master-skill-creator
-description: "角色与资产展示板超级母机技能 (Master-Skill)。作为展示板技能工业化生产流水线的总调度与自动化锻造引擎，严格遵循 Rule.md 底层宪法、4-Pillar Architecture 四位一体工程模型与 Benchmark.md 质检标准，面向任意垂直领域（机甲、生物、日漫、影视服化道、游戏蓝图、高奢时尚等），一键自动化冲压生产 100% 工业级、全自适应展示板技能（.md）。"
+description: "角色与资产展示板超级母机技能 (Master-Skill)。作为展示板技能工业化生产流水线的总调度与自动化锻造引擎，严格遵循 Rule.md 底层宪法、4-Pillar Architecture 四位一体工程模型与 Benchmark.md 质检标准，面向任意垂直领域（机甲、生物、日漫、影视服化道、游戏蓝图、高奢时尚等），一键自动化冲压生产 100% 自包含、零外部依赖、独立可运行的工业级展示板技能（.md）。"
 ---
 
 # 角色与资产展示板超级母机技能 (Master-skill.md)
 ## Universal Character & Asset Presentation Board Master Engine
 
 > **母机地位（Meta-Skill）**：本技能是整个系统的**总装配与自动化生产流水线引擎（The Machine that Makes the Machine）**。  
-> **核心使命**：将 [Rule.md](Rule.md)（底层宪法）、[4-Pillar Architecture.md](4-Pillar%20Architecture.md)（工程图纸）与 [Benchmark.md](Benchmark.md)（质检矩阵）三者熔炼为一体，对外接收任何新题材需求，对内通过工业化流水线自动组装、冲压、质检，并一键交付全新的生产级展示板技能（`.md`）。
+> **核心使命**：将 [Rule.md](Rule.md)（底层宪法）、[4-Pillar Architecture.md](4-Pillar%20Architecture.md)（工程图纸）与 [Benchmark.md](Benchmark.md)（质检矩阵）三者熔炼为一体，对外接收任何新题材需求，对内通过工业化流水线自动组装、冲压、质检，并一键交付**100% 独立可运行、无外部引用的成品技能（`.md`）**。
 
 ---
 
-## 1. 工业化生产流水线架构 (Industrial Assembly Line)
+## 1. 核心生产法则：静态内联与零外部依赖 (Static Inlining Doctrine)
+
+母机在生产任何垂直领域的展示板技能时，必须遵守最高制造铁律：
+
+> **【静态内联铁律 (Self-Contained & Fully Portable)】**  
+> 母机流水线生产出的任何 `.md` 技能文件，必须把**执行门禁、反补丁正向词法、单引号注入语法、安全呼吸留白、两轮状态机、双模提示词模板以及领域专属自检清单**完整内化（Inline）到自身单文件内部。  
+> **生产出的技能文件中严禁包含任何指向 `Rule.md`、`Benchmark.md` 或 `skill creator/` 的外部文件引用或超链接**。  
+> 任何使用者单独拷走该单文件，或者在任何全新的 Agent 环境中载入该文件，它本身即是一个自闭环、自解释、自验收、开箱即用的完整战斗体。
+
+---
+
+## 2. 工业化生产流水线架构 (Industrial Assembly Line)
 
 ```
        【用户需求输入: 目标领域 / 核心题材 / 使用场景】(如: "我想做一个科幻机甲装配展板技能")
@@ -21,18 +32,19 @@ description: "角色与资产展示板超级母机技能 (Master-Skill)。作为
 │                        Master-skill 自动化铸造流水线 (SOP)                             │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ 1. 领域特征反编译 ──► 确定题材属性、最优物理画幅(2:3 / 1:1 / 16:9)与容器构成            │
-│ 2. 注入底层宪法   ──► 强行绑定 Rule.md 刚性红线 (反补丁、单引号语法、纯正向、两轮门禁) │
-│ 3. 冲压四大构件   ──► 依据 4-Pillar Architecture 依次组装骨架、反编译器、基准雷达与门户 │
-│ 4. 虚拟出厂质检   ──► 对照 Benchmark.md 四大极限维度执行自检验收                       │
+│ 2. 静态内联宪法   ──► 将 Rule.md 全部规则(反补丁、单引号语法、纯正向、两轮门禁)直接内化 │
+│ 3. 冲压四大构件   ──► 依据 4-Pillar Architecture 在单文件内组装骨架、反编译器与提示词   │
+│ 4. 内化验收清单   ──► 将 Benchmark.md 转化为该技能尾部的专属自检验收清单 (无需外挂测试) │
+│ 5. 虚拟出厂质检   ──► 对照 Benchmark.md 阻断线自检，确保无违禁词、无硬编码、无外链     │
 └────────────────────────────────────────────────────────────────────────────────────────┘
                                            │
                                            ▼
-            【自动化交付: 100% 符合工业级标准的全新 <domain>-sheet.md 技能文件】
+            【自动化交付: 100% 自包含、零外部依赖、独立可运行的全新 <domain>-sheet.md】
 ```
 
 ---
 
-## 2. 流水线作业标准程序 (Standard Operating Procedure - SOP)
+## 3. 流水线作业标准程序 (Standard Operating Procedure - SOP)
 
 当用户或开发团队要求创建一个新领域的展示板技能时，Master-skill 必须严格按照以下五步流水线执行冲压：
 
@@ -43,8 +55,8 @@ description: "角色与资产展示板超级母机技能 (Master-Skill)。作为
   - 工业机甲/机械爆炸图/战舰载具：选用 **16:9 横向画幅** 或 **4:3 横版**，保障水平展开面；
   - 3D 游戏资产/多维多角度拓扑：选用 **1:1 方版** 或 **3:4 竖版**，保障四方网格均衡度。
 
-### 步骤 2：强制注入底层宪法 (Constitutional Rule Injection)
-新生成的技能文档内部，必须在底层强制继承 [Rule.md](Rule.md) 的全部元规则，杜绝一切隐患：
+### 步骤 2：静态内联底层宪法 (Constitutional Rule Inlining)
+母机在生成目标技能的 Markdown 正文时，必须将 [Rule.md](Rule.md) 规定的底层契约**直接编写为目标技能的内部章节**，严禁留出外部跳转链接：
 1. **反补丁机制（Anti-Patching）**：生成的提示词模板中严禁使用任何 `No X, Without Y` 等负向补丁词；
 2. **零硬编码原则（Zero-Hardcoding）**：模板中严禁预设任何具体服饰、材质、编号或职业偏见；
 3. **模态守恒（Modality Invariance）**：提示词强制保留原生艺术媒介（日漫/3D/写实等零异化）；
@@ -53,38 +65,38 @@ description: "角色与资产展示板超级母机技能 (Master-Skill)。作为
 6. **两轮状态机门禁**：强制输出 Turn 1 只读待命与 Turn 2 授权出图的双阶段交互逻辑。
 
 ### 步骤 3：流水线组装四大构件 (4-Pillar Automated Assembly)
-Master-skill 按照 [4-Pillar Architecture.md](4-Pillar%20Architecture.md) 标准冲压出该技能的 4 大核心构件：
+Master-skill 按照 [4-Pillar Architecture.md](4-Pillar%20Architecture.md) 标准，在单个 Markdown 文件内顺序冲压出 4 大构件：
 
-- **冲压 Pillar 1【版面骨架 (Blueprint Skeleton)】**：
-  - 计算全板各功能容器的百分比面积（大标题、主体视角、物理解构、数据卡、小传签名）；
+- **Pillar 1 冲压【版面骨架 (Blueprint Skeleton)】**：
+  - 规划全板功能容器的百分比面积与留白关系；
   - 编写双轨参数化提示词模版：
     - `方案 A（一键整板渲染）`：包含完整 `'...'` 单引号 UI 界面排印；
     - `方案 B（纯净无字底板 Clean Plate）`：完全剥离字样，专为 PS/InDesign 后期填字预留透气空白。
-- **冲压 Pillar 2【反编译器 (Semantic Decompiler)】**：
+- **Pillar 2 冲压【反编译器 (Semantic Decompiler)】**：
   - 定义该领域的【核心三要素输入门禁】；
   - 建立该领域专属的特征提取字典（如机甲领域提取：装甲层级、动力回路、外挂武器、光学传感器；服化道领域提取：成衣平铺、专属佩饰、4级微距）；
   - 建立优雅缺省补齐规则（自动推演背景与宣言，杜绝反复追问）。
-- **冲压 Pillar 3【黄金基准 (Golden Benchmark)】**：
-  - 引入 [Benchmark.md](Benchmark.md) 评测体系，定制该领域特有的专项验收清单；
-  - 明确合格线：PASS / WARN / FAIL 阻断规则。
-- **冲压 Pillar 4【交互门户 (Interactive Portal)】**：
-  - 编写两轮标准对话引导脚本（输入索取话术、提示词交付停机话术）；
-  - 编写该技能的 README 使用说明与故障排查建议 (FAQ)。
+- **Pillar 3 冲压【专属自检验收清单 (Inline Acceptance Checklist)】**：
+  - 将 [Benchmark.md](Benchmark.md) 的四维指标转化为该技能正文末尾自带的**专属 7~8 项量化自查勾选单**，无需外部文件即可完成交付质检。
+- **Pillar 4 冲压【交互门户 (Interactive Portal)】**：
+  - 编写该技能内部的两轮对话引导话术脚本（输入索取话术、提示词交付停机话术）；
+  - 编写内嵌的故障排查与参数微调指南 (FAQ)。
 
 ### 步骤 4：出厂自检与阻断测试 (Factory Quality Inspection)
-在交付新技能代码前，Master-skill 必须对照 [Benchmark.md](Benchmark.md) 进行出厂模拟校验：
-- [ ] 检查是否含有否定补丁词（出现即阻断）；
-- [ ] 检查是否含有写死角色的硬编码（出现即阻断）；
-- [ ] 检查界面单引号 `'...'` 闭合度（未闭合即阻断）；
-- [ ] 检查双方案提示词模板完整性（缺少 Clean Plate 即阻断）；
-- [ ] 检查两轮状态机停机指令（缺少即阻断）。
+在交付新技能代码前，Master-skill 必须进行出厂模拟校验：
+- [ ] **零外链检查**：新生成的技能正文中是否存在任何指向 `Rule.md`、`Benchmark.md` 等外部文件的链接？（存在即阻断）；
+- [ ] **反补丁检查**：是否存在否定补丁词？（存在即阻断）；
+- [ ] **零硬编码检查**：是否存在写死角色的硬编码？（存在即阻断）；
+- [ ] **单引号检查**：界面单引号 `'...'` 是否 100% 闭合？（未闭合即阻断）；
+- [ ] **双模模板检查**：是否具备 Clean Plate 纯净底板？（缺少即阻断）；
+- [ ] **两轮门禁检查**：是否具备首轮停机待命指令？（缺少即阻断）。
 
-### 步骤 5：落盘与交付 (Skill Delivery)
-将检验通过的代码完整保存为标准 Markdown 技能文件（如 `mecha-blueprint.md` / `anime-sheet.md`），并给出清晰的使用引导。
+### 步骤 5：独立单文件落盘交付 (Self-Contained Skill Delivery)
+将检验通过的代码完整保存为一个标准的 `.md` 技能文件（如 `visdev.md` / `mecha-sheet.md`）。该文件不依赖任何外部生态，独立自洽，插拔即用。
 
 ---
 
-## 3. 母机交互指令集 (Master-skill Trigger Syntax)
+## 4. 母机交互指令集 (Master-skill Trigger Syntax)
 
 用户向 Master-skill 发起锻造指令的标准语法极其简单：
 
@@ -95,4 +107,4 @@ Master-skill 按照 [4-Pillar Architecture.md](4-Pillar%20Architecture.md) 标�
 3. 优选画幅(可选)：[未指定时，由 Master-skill 自动依据空间学推荐最优比例]
 ```
 
-Master-skill 接收到上述指令后，将直接全自动运行 SOP，原地锻造并交付一份具备 100% 工业级交付标准的 `.md` 技能文件。
+Master-skill 接收到上述指令后，将直接全自动运行 SOP，原地锻造并交付一份**100% 自包含、零外部依赖、独立可运行**的 `.md` 技能文件。
