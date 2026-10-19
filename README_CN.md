@@ -111,6 +111,17 @@
 
 ---
 
+### 8. 日本顶级动漫角色资产与设定资料集模型板 (`长片动画与番剧设定集分支`)
+> **角色**: 娜美 (Nami) · 执行首席秘书 (Executive Secretary)  
+> **核心规范**: [anime-character-asset.md](anime-character-asset.md) (中文) · [anime-character-asset-En.md](anime-character-asset-En.md) (英文)  
+> **核心特性**: 2:3 纵向黄金画幅、40% 统治级主体全身大立绘(Hero Shot)、全彩正交转台三视图（正/侧/背）、京都动画/MAPPA 级别灵动赛璐珞光影与星芒眼眸、6 联生动日漫微表情矩阵、修身西装制服与铅笔裙平铺拆解、真皮手账与金丝眼镜配件展台、2×2 视效微距四宫格与纯 HEX 色卡系统。
+
+<div align="center">
+  <img src="assets/08_nami_anime_character_asset.jpg" width="85%" alt="日本顶级动漫角色资产与设定资料集模型板 - 娜美" />
+</div>
+
+---
+
 ## 📐 布局拓扑架构
 
 画布严格采用 3:4 竖版空间网格，按空间力学进行黄金分割，确保信息密度与呼吸感平衡：
@@ -222,7 +233,8 @@ character-skill/
 │   ├── 04_balagui_3d_stylized.jpg
 │   ├── 05_seraphina_benchmark.jpg
 │   ├── 06_li_mengting_visdev.jpg
-│   └── 07_xiyao_pixar_3d_asset.jpg
+│   ├── 07_xiyao_pixar_3d_asset.jpg
+│   └── 08_nami_anime_character_asset.jpg
 ├── skill.md                    # 通用角色蓝图规范源码 (中文版)
 ├── Skill-En.md                 # 通用角色蓝图规范源码 (英文版)
 ├── visdev.md                   # 影视服化道圣经规范源码 (中文版)

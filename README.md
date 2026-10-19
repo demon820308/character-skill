@@ -109,6 +109,17 @@ Engineered for AAA game studios, animation houses, and concept artists, it stand
 
 ---
 
+### 8. Top-Tier Japanese Anime Character Asset & Model Sheet (`TV Anime & Film Setting Material Branch`)
+> **Subject**: Nami (娜美) · Executive Secretary (执行首席秘书)  
+> **Specification**: [anime-character-asset.md](anime-character-asset.md) (ZH) · [anime-character-asset-En.md](anime-character-asset-En.md) (EN)  
+> **Key Features**: 2:3 vertical golden aspect ratio, 40% dominant full-body hero master appeal pose, full-color orthographic turnaround model sheet (`FRONT`, `PROFILE`, `BACK`), Kyoto Animation / MAPPA inspired luminous cel-shading & crystalline eyes, 6-expression anime facial tension matrix, tailored office suit & skirt flat-lay breakdown, leather notebook & fountain pen props, 2x2 macro visual close-up grid, and industrial HEX palette with cursive signature.
+
+<div align="center">
+  <img src="assets/08_nami_anime_character_asset.jpg" width="85%" alt="Japanese Anime Character Asset & Model Sheet - Nami" />
+</div>
+
+---
+
 ## 📐 Layout Architecture
 
 The canvas strictly enforces a 3:4 vertical blueprint hierarchy, geometrically balanced to prevent overcrowding and label collisions:
@@ -220,7 +231,8 @@ character-skill/
 │   ├── 04_balagui_3d_stylized.jpg
 │   ├── 05_seraphina_benchmark.jpg
 │   ├── 06_li_mengting_visdev.jpg
-│   └── 07_xiyao_pixar_3d_asset.jpg
+│   ├── 07_xiyao_pixar_3d_asset.jpg
+│   └── 08_nami_anime_character_asset.jpg
 ├── skill.md                    # Core Blueprint Specification (Chinese)
 ├── Skill-En.md                 # Core Blueprint Specification (English)
 ├── visdev.md                   # Film VisDev & Costume Bible Specification (Chinese)
