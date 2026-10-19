@@ -31,7 +31,7 @@ description: "国际顶级影视视觉开发（VisDev）、剧组服化道定妆
          ┌─────────────────────────────────┴─────────────────────────────────┐
          ▼                                                                   ▼
 【物理空间骨架 (无论什么角色 100% 恒定)】                   【四大动态推演通道 (随参考图 100% 进化)】
-1. 2:3 纵向纯净无黑框艺术纸张环境                          1. 字体气质与品牌主色通道 (Typeface & Color)
+1. 2:3 纵向纯净无黑框艺术纸张环境                          1. 字体三件套与品牌主色通道 (Typography Triad & Theme Color)
 2. 顶部双行巨标 + 右上角元数据平衡天平                     2. 服化道成衣平铺拆解通道 (Outfit Decomposition)
 3. 居中大比例全身正/侧/背三视图贯通中栏                    3. 2x2 四宫格电影级微距通道 (Macro Semantic Targets)
 4. 扁平化八大原子容器，绝无多余中层大标                    4. 镜头表演微表情张力通道 (Dramatic Expression Set)
@@ -118,20 +118,19 @@ description: "国际顶级影视视觉开发（VisDev）、剧组服化道定妆
 
 针对用户上传的任意题材角色，大模型必须依照以下客观反编译法则推演所有细节，用户只需提供三要素（参考图、名字、职业），**其余派生字段全部由系统自动推演，绝不向用户二次追问**：
 
-#### 3.1 字体气质与排版天平通道 (Typeface & Top-Balance)
-- **主题色（Theme Color）提取法则**：
+#### 3.1 字体三件套与排版天平通道 (Typography Triad & Top-Balance)
+- **品牌主色（Theme Color）提取法则**：
   - 系统客观提取参考图服装或装备中最具视觉统治地位的核心深色作为全图的“品牌主色”（用于顶部双行巨标与强调元数据）。
   - 色彩完全源于参考图像素真实采样，严禁主观捏造色调。
-- **字体气质（Typeface Genre）匹配法则**：
-  - 根据角色的历史时代、科技属性与人物气质，自适应选定标题英文字体风格：
-    * 典雅华贵 / 高级定制 / 时尚名媛 $\to$ `Didone / High-Contrast Modern Serif (Didot / Bodoni 风格)`
-    * 历史古典 / 史诗宏大 / 帝王金石 $\to$ `Classical Roman / Trajan Imperial Serif (庄严金石石刻风骨)`
-    * 冷峻机能 / 未来科技 / 战术专业 $\to$ `Tactical Geometric Sans / Technical Grotesque (精密工业理性感)`
-    * 粗粝叛逆 / 潮流街头 / 先锋解构 $\to$ `Dynamic Display / Brutalist Sans (粗粝张力风格)`
-- **顶部双行纯英大标与双语引言排版公理**：
-  - 主标严格采用两行垂直堆叠纯英文字符 `'[NAME_LINE_1] ✦'` 与 `'[NAME_LINE_2]'`，以服饰主题色渲染。**严禁在顶部主标同一行或左右放置大号中文角色名（中文名仅在 BASIC INFORMATION 与签名处出现）**。
-  - 中文诗意引言以适度字距排布于双行大标下方，其下紧随极细大写英文引言。
-  - 右上角元数据天平：`No. [ID]` / `CHARACTER PROFILE` / `✦` / `[OCCUPATION_CAPS]` (纯大写、宽字距) / 虚线细线。**严禁在右上角插入括号中文（如 `(虎牙女主播)` 等）**。
+- **全板核心字体三件套（Typography Triad - 100% 恒定锁定）**：
+  本展板属于国际高奢影视服装概念档案，无需多字体自适应切换，全板严格统一定义三大字型：
+  1. **结构与西文标题**：`High-contrast editorial Didone serif (all uppercase)`（主标、元数据、8 大容器标题、三视图标签统一衬线）；
+  2. **中文正文与诗意引言**：`Airy tracked Songti (spaced Chinese characters)`（宋体字距拉开，优雅通透）；
+  3. **专属艺术签名**：`Flowing cursive handwritten script in black ink`（黑色连笔手写花体，点睛收尾）。
+- **三条防翻车硬规避**：
+  - **顶部主标纯英文**：主标严格采用两行垂直堆叠纯英文字符 `'[NAME_LINE_1] ✦'` 与 `'[NAME_LINE_2]'`，以服饰主题色渲染。中文角色名仅在个人档案区与签名处出现，**严禁在顶部主标同一行或左右放置大号中文角色名**。
+  - **右上角元数据天平**：`No. [ID]` / `CHARACTER PROFILE` / `✦` / `[OCCUPATION_CAPS]` (纯大写、宽字距) / 虚线细线，**严禁在右上角插入括号中文**。
+  - **容器大标纯英文**：8 大容器大标 100% 纯英文大写 Serif，**绝对严禁添加任何中文副标题（如严禁标注“装束拆解”、“配饰细节”、“2x2微距”、“工业色卡”、“人物小传”等）**。
 
 #### 3.2 服化道成衣平铺拆解通道（OUTFIT BREAKDOWN）
 - **人体穿戴拓扑层解构公理**：
@@ -173,15 +172,14 @@ description: "国际顶级影视视觉开发（VisDev）、剧组服化道定妆
   - 所有 6 联微表情肖像必须全部为**全彩写实摄影人像（Full-color photographic portraits）**，严格继承主角色的肤色、光影、妆容与发丝质感，**绝对严禁裂变为黑白线稿、动漫线描或二次元铅笔草图（Zero 2D manga, zero monochrome sketches）**。
   - 底部标签居中双语标注：`'[表情1_ZH] / [EXPR_1_EN]'`。
 
-#### 3.6 容器标题纯英文、无框关键词与防指令泄露公理 (Purity & Anti-Leakage Axiom)
-- **容器大标纯英文（Pure English Container Headers）**：
-  - 展板所有 8 大原子容器标题必须且只能为纯英文大写 Serif（`'BASIC INFORMATION'`, `'MODEL SHEET'`, `'EXPRESSIONS'`, `'OUTFIT BREAKDOWN'`, `'ACCESSORIES'`, `'DETAIL CLOSE-UP'`, `'COLOR PALETTE'`, `'CHARACTER INTRODUCTION'`, `'KEYWORDS'`, `'SIGNATURE'`），**绝对严禁添加任何中文副标题（如严禁标注“装束拆解”、“配饰细节”、“2x2微距”、“工业色卡”、“人物小传”等）**。
+#### 3.6 纯视觉陈列与防指令泄露铁律 (Purity & Anti-Leakage Safeguards)
+- **纯视觉陈列零文字零编号**：
+  - `OUTFIT BREAKDOWN` 与 `ACCESSORIES` 属于纯商业高定静物摄影，容器内部严禁出现任何单品文字标签；
+  - `DETAIL CLOSE-UP` 为无缝 2×2 光学微距大片，内部**绝对禁止出现 (1), (2), (3), (4) 序号角标，严禁任何文字覆层**。
 - **防止指令泄露铁律（Zero Instruction Leakage）**：
-  - 提示词中所有排版指令与元数据必须纯英文书写，**严禁在提示词中混入中文排版提示语（如“右下角艺术签名”、“双语标签”、“居中排版”、“微距四宫格”等）**，防止扩散模型将中文设计说明误渲染为画面文字！
+  - 提示词中排版描述与渲染字符必须严格物理隔离，**严禁在提示词中混入“右下角艺术签名”、“双语标签”等中文排版说明语**，防止扩散模型将指令作为画中文字打印出来！
 - **关键词无框化浮动排版（Borderless Floating Keywords）**：
-  - `KEYWORDS` 容器必须采用 3 行无框浮动排版，字距舒展，**严禁使用方括号 `[...]`、实体圆角框或按钮式边框**，让文字自然呼吸于特种纸张背景上。
-- **艺术花体签名与金句（Signature & Motto）**：
-  - `SIGNATURE` 容器展示极度优美的黑色连笔艺术手写名 `[CharacterName] ♡`，下衬虚线细线与大写英文设计宣言金句 `- [THEMATIC_MOTTO] -`。
+  - `KEYWORDS` 容器必须采用 3 行无框浮动排版，字距舒展，**严禁使用方括号 `[...]`、实体圆角框或按钮式边框**，让文字自然呼吸于纸张背景上。
 
 ---
 
@@ -195,7 +193,12 @@ High-end cinematic visual development costume design bible, luxury editorial pre
 ```
 
 #### 4.2 汉字、色码与界面单引号注入模板
-在 English Prompt 中，所有需要在画面中渲染的字符必须用 `'...'` 显式包裹：
+在 English Prompt 中，必须首先显式注入字体三件套总控声明：
+```text
+Typography: global UI titles and container headers strictly rendered in high-contrast editorial Didone serif in all uppercase; Chinese quotes and lore in elegant airy tracked Songti; character signature in flowing cursive handwritten script in black ink.
+```
+
+所有需要在画面中渲染的字符必须用 `'...'` 显式包裹：
 - **顶部标题与引言**：
   `top header: stacked two-line '[NAME_LINE_1] ✦' on line 1 and '[NAME_LINE_2]' on line 2 in massive high-contrast serif rendered in deep costume theme color '[THEME_COLOR]', with strictly zero Chinese characters beside the English title, tracked Songti Chinese quote directly underneath: '[QUOTE_ZH]', followed by small tracked serif English quote: '[QUOTE_EN]'. Top-right metadata stack: 'No. [ID]' / 'CHARACTER PROFILE' / '✦' / '[OCCUPATION_CAPS]' in widely tracked uppercase serif / dotted hairline, with strictly zero parenthetical translations.`
 - **容器大标纯英文大写 Serif（严禁中文副标）**：
