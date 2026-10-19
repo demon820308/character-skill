@@ -43,64 +43,72 @@ description: "国际顶级影视视觉开发（VisDev）、剧组服化道定妆
 ### 2. 扁平化八大原子功能容器与排版几何 (Layout Architecture)
 
 画布严格采用 **2:3 纵向黄金画幅（800×1200 / 1024×1536）**，版面完全建立在无暇纯白（Pure Clean White）或微暖特种艺术纸底色上。相比 3:4 比例，2:3 垂直释放了 12.5% 的纵深空间，彻底保证全身立姿与下半部物理解构的呼吸留白。
-**【铁律：严格纯净无框留白】**：绝不出现任何横贯全屏的粗暴黑实线（NO horizontal solid dividing rules），模块间完全依赖自然的负空间（Negative Space）与优雅字距划分。
+**【铁律一：严格纯净无框留白】**：绝不出现任何横贯全屏的粗暴黑实线（NO horizontal solid dividing rules），模块间完全依赖自然的负空间（Negative Space）与优雅字距划分。
+**【铁律二：全版容器标题纯英文大写 Serif（零中文副标题）】**：展板上所有容器的大标必须且只能为纯英文大写 Serif（`'BASIC INFORMATION'`, `'MODEL SHEET'`, `'EXPRESSIONS'`, `'OUTFIT BREAKDOWN'`, `'ACCESSORIES'`, `'DETAIL CLOSE-UP'`, `'COLOR PALETTE'`, `'CHARACTER INTRODUCTION'`, `'KEYWORDS'`, `'SIGNATURE'`），**绝对严禁添加任何中文副标题（如严禁标注“装束拆解”、“配饰细节”、“2x2微距”、“工业色卡”、“人物小传”、“右下角艺术签名”等）**。
 
 整个展板是由 **8 个平级的原子功能容器** 组成的经典结构（绝不人为添加 `DECONSTRUCTION` 或 `THE THREE-VIEW` 等中层大标题）：
 
 ```
 +---------------------------------------------------------------------------------------------------+
-| [顶部大标题与引言 14%] (纯白无框背景，双重天平构图)                                               |
+| [顶部大标题与引言 14%] (纯白无框背景，高反差天平构图，顶部英文标题严禁混入中文)                 |
 |  巨型双行高反差大标（提取服饰主色）：[NAME LINE 1] ✦                   No. [ARCHIVE_ID]           |
 |                                    [NAME LINE 2]                     CHARACTER                  |
 |                                                                      PROFILE                    |
 |                                                                      ✦                          |
 |  双语精致引言：[中 文 诗 意 设 计 引 言 ， 适 度 拉 开 字 距 。]       [OCCUPATION IN CAPS]       |
-|  [ENGLISH THEMATIC POETIC QUOTE IN ELEGANT SERIF CAPITALS.]          ·························· |
+|  [ENGLISH THEMATIC POETIC QUOTE IN ELEGANT TRACKED SERIF CAPITALS.]  ·························· |
 +---------------------------------------------------------------------------------------------------+
 | [上半部 46%: 角色演艺现场] (空间自然留白分隔，无黑线分割)                                         |
 | [容器 1: 个人静态档案]        | [容器 2: 全身定妆三视图]             | [容器 3: 演艺肖像 2x3]     |
 | BASIC INFORMATION             | MODEL SHEET                          | EXPRESSIONS               |
 |                               |                                      |                           |
-| 角色名 (灰色小字)             | 九头身黄金比例挺拔立姿：             | 白底轻柔卡片，生动手势:   |
-| [Name En]                     | [正面直立]   [侧面90度]   [背面直立] | [肖像 1]     [肖像 2]     |
-| ([Name Zh])                   | FRONT          SIDE          BACK    | 表情双语标签 表情双语标签 |
+| 角色名 (浅灰微距小字)         | 九头身黄金比例挺拔立姿：             | 2x3 六联全彩写实摄影肖像: |
+| [Name En] (高辨识Serif)       | [正面直立]   [侧面90度]   [背面直立] | [肖像 1]     [肖像 2]     |
+| ([Name Zh])                   | FRONT          SIDE          BACK    | 平静/NEUTRAL 微笑/SMILE   |
 |                               |                                      |                           |
 | 职业                          | · 舒展直立站姿，完全展现服装剪裁廓形 | [肖像 3]     [肖像 4]     |
-| [Role Zh] / [Role En]         | · 专业影棚聚光灯(Key Spotlight)布光  | 表情双语标签 表情双语标签 |
-|                               | · 轮廓自带微弱边缘光(Rim Light)浮出  |                           |
-| 年龄 / AGE: [Age]             | · 真实地表柔和接触投影               | [肖像 5]     [肖像 6]     |
-| 身高 / HEIGHT: [Height]       | · 顶部与脚部拥有 12% 呼吸留白        | 表情双语标签 表情双语标签 |
-|                               |                                      | (配合微翘唇角/眼神焦点动作|
-| 核心外貌与特征 / TRAITS:      |                                      |                           |
-| · 发型与发色: [Hair Details]  |                                      |                           |
-| · 面容标志: [Distinct Traits] |                                      |                           |
+| [Role Zh] / [Role En]         | · 领口剪裁100%忠实原图(严禁异化)     | 眨眼/WINK    认真/SERIOUS |
+|                               | · 专业影棚聚光灯(Key Spotlight)布光  |                           |
+| 年龄 / AGE: [Age]             | · 轮廓自带微弱边缘光(Rim Light)浮出  | [肖像 5]     [肖像 6]     |
+| 身高 / HEIGHT: [Height]       | · 真实地表柔和接触投影               | 惊讶/SURPRISED 思考/THINKING
+| 生日 / BIRTHDAY: [MM / DD]    | · 顶部与脚部拥有 12% 呼吸留白        |                           |
+| 星座 / CONSTELLATION: [座]    | · 底部纯英标注，绝无中文副标签       | · 100%全彩真实摄影质感    |
+|                               |                                      | · 严格禁止黑白漫画线稿    |
+| 外貌特征 / APPEARANCE:        |                                      | · 生动眼神焦点与手部微动  |
+| - 发色: [Hair Color]          |                                      | · 底部居中双语微标签      |
+| - 发型: [Hair Style]          |                                      |                           |
+| - 瞳色: [Eye Color]          |                                      |                           |
+| - 特点: [Distinct Traits]    |                                      |                           |
+| - 体型: [Body Silhouette]    |                                      |                           |
 |                               |                                      |                           |
 | 气质关键词 / KEYWORDS:        |                                      |                           |
-| [关键词 1] · [词 2] · [词 3]  |                                      |                           |
-| [关键词 4] · [词 5] · [词 6]  |                                      |                           |
+| 词1 / 词2 / 词3 / 词4         |                                      |                           |
+| 词5 / 词6 / 词7 / 词8         |                                      |                           |
+| ★★★★★                         |                                      |                           |
 +---------------------------------------------------------------------------------------------------+
-| [下半部 第一层 24%: 四大实体物理解构列] (严格并排，中间绝无横切死黑线)                            |
+| [下半部 第一层 24%: 四大实体物理解构列] (严格并排，中间绝无横切死黑线，大标纯英无中文)            |
 |                                                                                                   |
 | [容器 4: 成衣平铺拆解] | [容器 5: 佩饰独立悬浮] | [容器 6: 2x2 微距四宫格] | [容器 7: 工业色卡系统]|
 | OUTFIT BREAKDOWN      | ACCESSORIES            | DETAIL CLOSE-UP          | COLOR PALETTE         |
 | 商业静物摄影立体平铺: | 标志性佩饰道具悬浮展台:| 2x2 无缝高精微距大片:    | 纯净矩形色块垂直堆叠: |
 | 依据角色装束拆解3~5件 | 依据角色身份提取2~4件  | 1. [眼眸/神态微距特写]   | #HEX_1 (主装色)       |
-| 核心大件(外套/内搭/裙 | 核心小件(随身佩戴物/专 | 2. [面部特征/颌线微距]   | #HEX_2 (辅装色)       |
-| 裤/鞋靴/护具)，带真实 | 属道具/徽章)，通透折射 | 3. [发丝/头饰质感特写]   | #HEX_3 (配饰色)       |
-| 织物厚度与立体阴影。  | 高光与精工质感。       | 4. [重工面料/工艺微距]   | #HEX_4 (细节色)       |
-| 【绝无多余文字标注！】| 【绝无多余文字标注！】 | 【绝无数字！绝无文字！】 | #HEX_5 (肤色/环境)    |
-|                       |                        |                          | #HEX_6 (点缀高光)     |
-|                       |                        |                          | (右侧仅标纯HEX码！)   |
+| 仅限实际穿着(如裙身鞋)| 仅限身上实际可见配饰   | 2. [唇部光泽/颌线微距]   | #HEX_2 (辅装色)       |
+| 【严禁凭空添加开衫!】 | 【严禁按职业脑补耳机!】| 3. [发丝/头饰质感特写]   | #HEX_3 (配饰色)       |
+| 【严禁捏造任何外套!】 | 【严禁捏造项链手链!】  | 4. [重工面料/工艺微距]   | #HEX_4 (细节色)       |
+| 带织物厚度与立体阴影  | 通透折射高光精工质感   | 【严禁数字(1)(2)(3)(4)】 | #HEX_5 (肤色/环境)    |
+| 【绝无中文副标题！】  | 【绝无中文副标题！】   | 【绝无中文副标题！】     | #HEX_6 (点缀高光)     |
+| 【纯视觉绝无文字标注】| 【纯视觉绝无文字标注】 | 【纯视觉绝无文字标注！】 | (右侧仅标纯HEX六位码!)|
 +---------------------------------------------------------------------------------------------------+
-| [下半部 第二层 16%: 灵魂注脚与艺术签名] (容器 8: LORE & IDENTITY)                                 |
+| [下半部 第二层 16%: 灵魂注脚与艺术签名] (容器 8: LORE & IDENTITY，大标纯英无中文)                 |
 |                                                                                                   |
-| [左栏 42%: 双语人物小传]      | [中栏 28%: 核心标签圆角框]          | [右栏 30%: 艺术连笔花体签名]|
+| [左栏 42%: 双语人物小传]      | [中栏 28%: 气质标签无框悬浮]        | [右栏 30%: 艺术连笔花体签名]|
 | CHARACTER INTRODUCTION        | KEYWORDS                            | SIGNATURE                   |
 |                               |                                     |                             |
-| 典雅中文诗意小传段落(3~4行)   | 2行x3列独立圆角白底线框矩形标签：   | 极度优美的黑色连笔艺术手写名|
-| 下方紧跟极细英文小字段落(4~5行| [ 核心词 1 ] [ 核心词 2 ] [ 词 3 ]  | [Character Name]            |
-| 深入刻画镜头前的内心戏剧力量  | [ 核心词 4 ] [ 核心词 5 ] [ 词 6 ]  | ··························  |
-|                               |                                     | - [专属设计宣言金句] -      |
+| 典雅中文诗意小传段落(5~6行)   | 3行无框悬浮排版，通透字距：         | 极度优美的黑色连笔艺术手写名|
+| 下方紧跟极细英文小字段落(5~6行| 舞台魅力    实力主唱    热烈坚定    | [Character Name] ♡          |
+| 深入刻画镜头前的内心戏剧力量  | 自信从容    完美主义    情感共鸣    | ··························  |
+| 【绝无中文副标题！】          | 光芒四射    突破自我                 | - [Thematic Motto] -        |
+|                               | 【严禁方括号[ ]与圆角矩形外框！】   | 【严禁混入中文说明提示词！】|
 +---------------------------------------------------------------------------------------------------+
 ```
 
@@ -110,7 +118,7 @@ description: "国际顶级影视视觉开发（VisDev）、剧组服化道定妆
 
 针对用户上传的任意题材角色，大模型必须依照以下客观反编译法则推演所有细节，用户只需提供三要素（参考图、名字、职业），**其余派生字段全部由系统自动推演，绝不向用户二次追问**：
 
-#### 3.1 字体气质与品牌主色推演通道
+#### 3.1 字体气质与排版天平通道 (Typeface & Top-Balance)
 - **主题色（Theme Color）提取法则**：
   - 系统客观提取参考图服装或装备中最具视觉统治地位的核心深色作为全图的“品牌主色”（用于顶部双行巨标与强调元数据）。
   - 色彩完全源于参考图像素真实采样，严禁主观捏造色调。
@@ -120,19 +128,27 @@ description: "国际顶级影视视觉开发（VisDev）、剧组服化道定妆
     * 历史古典 / 史诗宏大 / 帝王金石 $\to$ `Classical Roman / Trajan Imperial Serif (庄严金石石刻风骨)`
     * 冷峻机能 / 未来科技 / 战术专业 $\to$ `Tactical Geometric Sans / Technical Grotesque (精密工业理性感)`
     * 粗粝叛逆 / 潮流街头 / 先锋解构 $\to$ `Dynamic Display / Brutalist Sans (粗粝张力风格)`
+- **顶部双行纯英大标与双语引言排版公理**：
+  - 主标严格采用两行垂直堆叠纯英文字符 `'[NAME_LINE_1] ✦'` 与 `'[NAME_LINE_2]'`，以服饰主题色渲染。**严禁在顶部主标同一行或左右放置大号中文角色名（中文名仅在 BASIC INFORMATION 与签名处出现）**。
+  - 中文诗意引言以适度字距排布于双行大标下方，其下紧随极细大写英文引言。
+  - 右上角元数据天平：`No. [ID]` / `CHARACTER PROFILE` / `✦` / `[OCCUPATION_CAPS]` (纯大写、宽字距) / 虚线细线。**严禁在右上角插入括号中文（如 `(虎牙女主播)` 等）**。
 
 #### 3.2 服化道成衣平铺拆解通道（OUTFIT BREAKDOWN）
 - **人体穿戴拓扑层解构公理**：
   - 严格按照**“最外层披挂/外披 $\to$ 躯干核心上装/内搭 $\to$ 下肢裙裤/腿部裁片 $\to$ 足部鞋靴/外挂护甲”**的穿戴物理层级，自适应拆解角色的 **3~5 件核心外装成衣部件**。
-  - **客观反编译原则**：角色参考图真实穿着什么就解构什么，严禁预设任何特定服饰，严禁凭空添加不存在的配件。
+- **客观反编译与绝对零幻觉公理（Zero Hallucination Axiom）**：
+  - **只能且必须拆解参考图中角色实际穿着的服装部件**（例如若参考图为抹胸碎花连衣裙，则仅拆解抹胸裙身、褶皱裙摆与鞋履，**绝对严禁凭空添加未穿着的外套、针织开衫、夹克等额外衣物**）。
+  - **剪裁与领口一致性**：三视图与平铺拆解必须严格保留参考图的真实领口剪裁（例如抹胸直筒剪裁严禁擅自变为一字肩或泡泡袖）。
 - **展陈形式**：采用**商业静物高定展陈（Commercial Still-Life / 3D Ghost Mannequin Display）**方式平铺，呈现自然的织物厚度、重力折痕与柔和接触阴影。
-- **纯视觉陈列铁律**：**容器内部严禁出现任何单品文字标签！** 纯靠视觉材质质感呈现，杜绝淘宝切图式文字杂音。
+- **纯视觉陈列与纯英标题铁律**：容器大标必须为纯英文 `'OUTFIT BREAKDOWN'`（**严禁添加中文副标题“装束拆解”**）；**容器内部严禁出现任何单品文字标签！** 纯靠视觉材质质感呈现，杜绝淘宝切图式文字杂音。
 
 #### 3.3 佩饰道具独立悬浮通道（ACCESSORIES）
 - **标志性随身道具剥离公理**：
   - 从角色身上客观剥离出 **2~4 件极具身份特征的随身佩饰、微观装备或核心道具**。
-  - **客观反编译原则**：必须 100% 来源于参考图中的实际可见饰品与装备，严禁凭空编造不存在的道具。
-- **展陈形式**：独立悬浮展示于展台上方，展示通透的物理折射高光与精工质感。容器内部绝无多余小文字。
+- **物理真实剥离与绝对零幻觉公理（Zero Hallucination Axiom）**：
+  - **必须 100% 来源于参考图中实际可见的饰品与物件**（例如若角色仅戴珍珠耳钉，颈部与手腕完全裸露，则仅展示耳钉，**绝对严禁凭空添加项链、手链、麦克风耳机等不存在的道具**）。角色的职业设定仅用于文字小传与气质推演，**绝不能作为向画面凭空脑补实物道具的借口**！
+- **展陈形式**：独立悬浮展示于展台上方，展示通透的物理折射高光与精工质感。
+- **纯视觉陈列与纯英标题铁律**：容器大标必须为纯英文 `'ACCESSORIES'`（**严禁添加中文副标题“配饰细节”**）；内部绝无多余小文字。
 
 #### 3.4 2×2 四宫格电影级微距通道（DETAIL CLOSE-UP）
 - **四阶光学微距聚焦法则**：由 4 个正方形组成的无缝四分格宏观微距摄影，永远遵循光学观察景深阶梯，物象 100% 取自参考图：
@@ -140,17 +156,32 @@ description: "国际顶级影视视觉开发（VisDev）、剧组服化道定妆
   - **格 2（面部特征微距）**：唇部光泽与纹理、下颌轮廓细节、或战术面罩口鼻机械滤嘴（忠实还原角色面部标志）。
   - **格 3（发丝/头饰质感）**：发丝流向与自然反光，或头盔拉丝金属接缝、头饰雕花微距。
   - **格 4（重工面料/材质微距）**：角色服装中最具质感的物料微观特写（重工刺绣、皮革荔枝纹、碳纤维编织、丝绸流光、战甲锻造纹理等）。
-- **纯视觉陈列铁律**：**四宫格内部绝对禁止出现 1, 2, 3, 4 序号！绝对禁止出现任何说明文字！**
+- **纯视觉陈列与零编号铁律（Pristine Visual Axiom）**：
+  - 容器大标必须为纯英文 `'DETAIL CLOSE-UP'`（**严禁添加中文副标题“2x2微距”**）。
+  - 四宫格内部**绝对禁止出现 (1), (2), (3), (4) 序号或任何角标！绝对禁止出现任何说明文字！** 保持纯净无暇的光学微距摄影拼接。
 
 #### 3.5 演艺微表情张力通道（EXPRESSIONS）
 - **斯坦尼斯拉夫斯基六维戏剧张力弧线**：
   - 2 列 × 3 行大尺寸肖像，根据角色自身人设与性格动态演绎 6 种微表情，**必须结合眼神焦点变化与生动手部肢体微动，杜绝呆滞死板的证件照**：
-    1. `常态 / NEUTRAL`：角色常态基准神态（清冷审视、从容沉稳或温和内敛）；
-    2. `微悦 / SMILE`：积极情绪（自信微笑、迷人弧度或温和笑意）；
-    3. `魅力 / CHARM (或 WINK)`：标志性灵动特写（灵动眨眼、微翘唇角或冷峻挑眉）；
-    4. `专注 / FOCUSED`：职业/战备状态（深邃凝视目标、严谨专注或施法蓄力）；
-    5. `应激 / TENSION (或 SURPRISED)`：突发情境反应（警惕戒备、瞳孔微震或神情微凝）；
-    6. `深省 / INTROSPECTION`：内心戏独白，**必须搭配手部肢体微动**（如手指轻触下颌、按扶耳机、整理袖口手套等）。
+    1. `平静 / NEUTRAL`：角色常态基准神态（清冷审视、从容沉稳或温和内敛）；
+    2. `微笑 / SMILE`：积极情绪（自信微笑、迷人弧度或温和笑意）；
+    3. `眨眼 / WINK`：标志性灵动特写（灵动眨眼、微翘唇角或冷峻挑眉）；
+    4. `认真 / SERIOUS`：职业/战备专注状态（深邃凝视目标、严谨专注或神情坚定）；
+    5. `惊讶 / SURPRISED`：突发情境反应（警惕戒备、瞳孔微震或神情微凝）；
+    6. `思考 / THINKING`：内心戏独白，**必须搭配手部肢体微动**（如手指轻触下颌、按扶耳机、整理袖口手套等）。
+- **画风模态绝对统一公理（Modality Consistency Lock）**：
+  - 所有 6 联微表情肖像必须全部为**全彩写实摄影人像（Full-color photographic portraits）**，严格继承主角色的肤色、光影、妆容与发丝质感，**绝对严禁裂变为黑白线稿、动漫线描或二次元铅笔草图（Zero 2D manga, zero monochrome sketches）**。
+  - 底部标签居中双语标注：`'[表情1_ZH] / [EXPR_1_EN]'`。
+
+#### 3.6 容器标题纯英文、无框关键词与防指令泄露公理 (Purity & Anti-Leakage Axiom)
+- **容器大标纯英文（Pure English Container Headers）**：
+  - 展板所有 8 大原子容器标题必须且只能为纯英文大写 Serif（`'BASIC INFORMATION'`, `'MODEL SHEET'`, `'EXPRESSIONS'`, `'OUTFIT BREAKDOWN'`, `'ACCESSORIES'`, `'DETAIL CLOSE-UP'`, `'COLOR PALETTE'`, `'CHARACTER INTRODUCTION'`, `'KEYWORDS'`, `'SIGNATURE'`），**绝对严禁添加任何中文副标题（如严禁标注“装束拆解”、“配饰细节”、“2x2微距”、“工业色卡”、“人物小传”等）**。
+- **防止指令泄露铁律（Zero Instruction Leakage）**：
+  - 提示词中所有排版指令与元数据必须纯英文书写，**严禁在提示词中混入中文排版提示语（如“右下角艺术签名”、“双语标签”、“居中排版”、“微距四宫格”等）**，防止扩散模型将中文设计说明误渲染为画面文字！
+- **关键词无框化浮动排版（Borderless Floating Keywords）**：
+  - `KEYWORDS` 容器必须采用 3 行无框浮动排版，字距舒展，**严禁使用方括号 `[...]`、实体圆角框或按钮式边框**，让文字自然呼吸于特种纸张背景上。
+- **艺术花体签名与金句（Signature & Motto）**：
+  - `SIGNATURE` 容器展示极度优美的黑色连笔艺术手写名 `[CharacterName] ♡`，下衬虚线细线与大写英文设计宣言金句 `- [THEMATIC_MOTTO] -`。
 
 ---
 
@@ -165,16 +196,26 @@ High-end cinematic visual development costume design bible, luxury editorial pre
 
 #### 4.2 汉字、色码与界面单引号注入模板
 在 English Prompt 中，所有需要在画面中渲染的字符必须用 `'...'` 显式包裹：
-- 顶部标题与引言：
-  `title: stacked two-line '[NAME_LINE_1] ✦' on line 1 and '[NAME_LINE_2]' on line 2 in massive high-contrast serif rendered in deep costume theme color '[THEME_COLOR]', top-right metadata stack: 'No. [ID]' / 'CHARACTER PROFILE' / '✦' / '[OCCUPATION_CAPS]' / dotted hairline, bilingual quote: '[QUOTE_ZH] [QUOTE_EN]'`
-- 三视图标签：`labeled underneath: 'FRONT', 'SIDE', 'BACK'`
-- 表情标签：`labeled: '[表情1_ZH] / [EXPR_1_EN]', '[表情2_ZH] / [EXPR_2_EN]', '[表情3_ZH] / [EXPR_3_EN]', '[表情4_ZH] / [EXPR_4_EN]', '[表情5_ZH] / [EXPR_5_EN]', '[表情6_ZH] / [EXPR_6_EN]'`
-- 模块纯净大标（禁止中层标题）：
-  `'BASIC INFORMATION'`, `'MODEL SHEET'`, `'EXPRESSIONS'`, `'OUTFIT BREAKDOWN'`, `'ACCESSORIES'`, `'DETAIL CLOSE-UP'`, `'COLOR PALETTE'`, `'CHARACTER INTRODUCTION'`, `'KEYWORDS'`, `'SIGNATURE'`
-- 工业色卡系统：
+- **顶部标题与引言**：
+  `top header: stacked two-line '[NAME_LINE_1] ✦' on line 1 and '[NAME_LINE_2]' on line 2 in massive high-contrast serif rendered in deep costume theme color '[THEME_COLOR]', with strictly zero Chinese characters beside the English title, tracked Songti Chinese quote directly underneath: '[QUOTE_ZH]', followed by small tracked serif English quote: '[QUOTE_EN]'. Top-right metadata stack: 'No. [ID]' / 'CHARACTER PROFILE' / '✦' / '[OCCUPATION_CAPS]' in widely tracked uppercase serif / dotted hairline, with strictly zero parenthetical translations.`
+- **容器大标纯英文大写 Serif（严禁中文副标）**：
+  `container headers: all section headers are strictly 100% pure English uppercase serif: 'BASIC INFORMATION', 'MODEL SHEET', 'EXPRESSIONS', 'OUTFIT BREAKDOWN', 'ACCESSORIES', 'DETAIL CLOSE-UP', 'COLOR PALETTE', 'CHARACTER INTRODUCTION', 'KEYWORDS', 'SIGNATURE', strictly forbidding any Chinese subtitles under container headers.`
+- **三视图标签与剪裁锁定**：
+  `MODEL SHEET: 3 full-body turnaround figures in standing pose (front, 90-degree side, back), strictly preserving the exact dress neckline and silhouette of the reference image, labeled underneath in pure English serif: 'FRONT', 'SIDE', 'BACK', with zero Chinese labels.`
+- **全彩演艺微表情（严禁黑白线稿）**：
+  `EXPRESSIONS: 2x3 grid of 6 full-color photographic portraits sharing identical skin tone, soft studio key lighting, and realistic texture with the model sheet, strictly forbidding monochrome or manga sketches, each portrait labeled underneath with bilingual centered text: '[EXPR_1_ZH] / [EXPR_1_EN]', '[EXPR_2_ZH] / [EXPR_2_EN]', '[EXPR_3_ZH] / [EXPR_3_EN]', '[EXPR_4_ZH] / [EXPR_4_EN]', '[EXPR_5_ZH] / [EXPR_5_EN]', '[EXPR_6_ZH] / [EXPR_6_EN]'`
+- **成衣平铺与配饰展台（零虚构零文字）**：
+  `OUTFIT BREAKDOWN: pure commercial still-life flat-lay deconstructing solely the garments actually worn in reference image, with zero hallucinated cardigans, jackets, or extra layers, purely visual uncaptioned display. ACCESSORIES: standalone floating display isolating solely the accessories visibly worn in reference image, with zero hallucinated headsets, necklaces, or bracelets, purely visual uncaptioned display.`
+- **四宫格微距（纯净无标无数字）**：
+  `DETAIL CLOSE-UP: seamless 2x2 macro square grid of pristine photographic close-ups, strictly uncaptioned with zero corner numbers, zero index digits (1)/(2)/(3)/(4), zero badges, and zero text overlay.`
+- **工业色卡系统**：
   `COLOR PALETTE: vertical stack of clean rectangular color chips labeled strictly with 6-digit hex codes e.g. '#HEX_1', '#HEX_2', '#HEX_3' on the right, with zero English color name clutter`
-- 纯视觉陈列指示：
-  `OUTFIT BREAKDOWN and ACCESSORIES must be pure commercial still-life product photography with realistic garment thickness and subtle drop shadows, purely visual uncaptioned display. DETAIL CLOSE-UP must be a seamless 2x2 macro square grid focusing entirely on pristine optical lens macro details.`
+- **双语人物小传**：
+  `CHARACTER INTRODUCTION: dual-language poetic lore with Chinese paragraph in tracked Songti and English paragraph in fine tracked serif.`
+- **无框浮动关键词**：
+  `KEYWORDS: 3 rows of borderless floating Chinese keywords with generous letter spacing, strictly zero square brackets [...], zero button boxes, and zero borders.`
+- **艺术花体签名与金句（防指令泄露）**：
+  `SIGNATURE: elegant cursive handwritten script signature of '[CharacterName] ♡' in black ink, dotted hairline, followed by centered tracked motto '- [THEMATIC_MOTTO] -', strictly zero procedural prompt leakage.`
 
 #### 4.3 静默纯正向词法（Pure Positive Affirmation）
 严禁在提示词中使用任何 "No 3D, without anime" 等否定词汇，严禁生成 Negative Prompt 代码块。全篇仅使用纯正向时尚摄影、高级服装设计、剧组定妆与画册排版专业词汇！
@@ -198,7 +239,7 @@ High-end cinematic visual development costume design bible, luxury editorial pre
 +-----------------------------------------------------------------------------------+
 | 【Turn 2: 授权执行出图与影视工业级验收】                                          |
 |  1. 启动生图工具，携带参考图路径与优化提示词发起高精渲染                                 |
-|  2. 交付图片，并对照服化道 8 大核心容器输出专业验收报告                                  |
+|  2. 交付图片，并对照服化道 10 大核心指标输出专业验收报告                                 |
 +-----------------------------------------------------------------------------------+
 ```
 
@@ -216,17 +257,19 @@ High-end cinematic visual development costume design bible, luxury editorial pre
 - **【确认引导】**：
   代码块输出完毕后，**必须输出以下确认引导并结束第一轮交互，等待用户确认指示，此轮不调用生图工具**：
   > “以上是为你定制的国际顶级 2:3 影视视觉开发与服化道定妆圣经（VisDev & Costume Bible）完整提示词。
-  > 采用主题色双行大标、九头身全身三视图、高定立体平铺解构、2x2四宫格微距与工业HEX色卡，严格纯白无黑线留白排版。
+  > 采用主题色双行纯英大标、九头身全身三视图、高定立体平铺解构、2x2四宫格微距与工业HEX色卡，严格纯白无黑线留白排版。
   > 请确认提示词细节。确认无误后请回复**‘生成图片’**或**‘直接出图’**，我将在下一轮为你调用工具生成；如需微调也可以直接提出。”
 
 #### 5.2 Turn 2 执行细则
 - 只有收到用户包含“生成图片”或“直接出图”的消息后，方可启动工具出图。
-- 出图完成后，执行全向工业验收：
-  1. **巨型标题与主题色**：顶部英文大标是否双行堆叠、颜色是否提取自服饰主色。
-  2. **绝对无横切黑实线**：整板是否为纯粹优雅的负空间留白分区，绝无粗暴黑表格线与中层大标题。
-  3. **居中九头身三视图**：中栏是否为完整全身正面、侧面、背面站立定妆三视图，身材比例是否修长拔挺。
-  4. **演艺表情肖像**：右侧 2×3 六联微表情是否真实细腻、是否带有生动微表情与手势、双语标签是否居中。
-  5. **服装平铺立体感**：下半部成衣拆解（Flat-lay）与悬浮配饰是否为纯视觉陈列（零多余小文字），有无厚度折痕阴影。
-  6. **四宫格微距特写**：2×2 眼妆、唇部/颌线、发质与面料肌理是否极具电影级光学质感（零数字序号）。
-  7. **极简 HEX 色值代码**：色卡右侧是否仅保留干净的 `#` 16 进制色彩编号（无多余英文描述堆砌）。
-  8. **小传与花体签名**：底部双语角色小传与右下角手写连笔签名是否全局单源绑定。
+- 出图完成后，执行全向工业级 10 大核心指标验收：
+  1. **巨型标题与顶部天平**：顶部大标是否为双行纯英文字符堆叠、是否提取服饰主题色、是否杜绝中文名并排挤压；右上角是否为纯英大写字距天平（无括号中文）。
+  2. **全版容器大标纯英文大写**：全板 8 大容器大标是否 100% 纯英文大写 Serif，是否绝对杜绝“装束拆解”、“配饰细节”、“2x2微距”、“工业色卡”、“人物小传”等中文副标题。
+  3. **居中九头身三视图**：三视图是否严格保留原图领口与服装剪裁（无一字肩异化），底部是否仅标纯英 `FRONT`, `SIDE`, `BACK`。
+  4. **演艺微表情模态统一**：2×3 六联微表情是否 100% 为全彩写实摄影人像（绝对杜绝黑白线稿、动漫线描或二次元草图），双语标签是否居中。
+  5. **服装平铺立体感与零幻觉**：成衣拆解（Flat-lay）是否仅拆解实际穿着部件（绝对杜绝虚构未穿着开衫、外套或夹克），是否为纯视觉陈列。
+  6. **佩饰独立悬浮与真实可见**：佩饰是否仅提取实际可见物件（绝对杜绝按职业脑补耳机麦克风、未戴项链或手链），是否为纯视觉陈列。
+  7. **四宫格微距纯净视觉**：2×2 微距是否为无缝摄影拼接，是否绝对无 (1), (2), (3), (4) 数字序号，无文字角标。
+  8. **极简工业 HEX 色卡**：色卡右侧是否仅保留 `#` 纯十六进制码（无多余英文名称堆砌）。
+  9. **关键词无框化浮动排版**：`KEYWORDS` 是否为 3 行无框浮动文字（绝对杜绝 `[...]` 方括号或圆角实体框）。
+  10. **小传与艺术签名**：双语小传与右下角手写花体签名是否全局绑定，是否彻底绝迹“右下角艺术签名”等任何指令泄露杂音。
