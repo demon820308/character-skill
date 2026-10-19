@@ -160,7 +160,7 @@ description: "国际顶级影视视觉开发（VisDev）、剧组服化道定妆
 
 #### 4.1 核心画风基调定义
 ```text
-High-end cinematic visual development costume design bible, luxury editorial presentation board. Strictly borderless clean pure white fine-art paper backdrop, NO horizontal solid black dividing rules, NO tabular frames, elegant negative space and natural breathing room. Studio key spotlight lighting, glossy dewy porcelain skin, subtle rim lighting pop-out effect, 35mm optical lens clarity, 8k resolution, masterpiece.
+High-end cinematic visual development costume design bible, luxury editorial presentation board. Strictly borderless composition with seamless unified pure white fine-art paper backdrop, continuous uninterrupted art paper surface, elegant negative space, airy breathing margins. Studio key spotlight lighting, glossy dewy porcelain skin, subtle rim lighting pop-out effect, 35mm optical lens clarity, 8k resolution, masterpiece.
 ```
 
 #### 4.2 汉字、色码与界面单引号注入模板
@@ -174,7 +174,7 @@ High-end cinematic visual development costume design bible, luxury editorial pre
 - 工业色卡系统：
   `COLOR PALETTE: vertical stack of clean rectangular color chips labeled strictly with 6-digit hex codes e.g. '#HEX_1', '#HEX_2', '#HEX_3' on the right, with zero English color name clutter`
 - 纯视觉陈列指示：
-  `OUTFIT BREAKDOWN and ACCESSORIES must be pure commercial still-life product photography with realistic garment thickness and subtle drop shadows, with ZERO text labels underneath the items. DETAIL CLOSE-UP must be a seamless 2x2 macro square grid with ZERO numbers and ZERO captions.`
+  `OUTFIT BREAKDOWN and ACCESSORIES must be pure commercial still-life product photography with realistic garment thickness and subtle drop shadows, purely visual uncaptioned display. DETAIL CLOSE-UP must be a seamless 2x2 macro square grid focusing entirely on pristine optical lens macro details.`
 
 #### 4.3 静默纯正向词法（Pure Positive Affirmation）
 严禁在提示词中使用任何 "No 3D, without anime" 等否定词汇，严禁生成 Negative Prompt 代码块。全篇仅使用纯正向时尚摄影、高级服装设计、剧组定妆与画册排版专业词汇！
