@@ -11,7 +11,7 @@
 
 [English](README.md) · [简体中文](README_CN.md)
 
-**Specifications**: [General Blueprint (ZH)](skill.md) · [General Blueprint (EN)](Skill-En.md) · [VisDev Bible (ZH)](visdev.md) · [VisDev Bible (EN)](visdev-En.md) · [Pixar 3D Asset (ZH)](pixar-3d-asset.md) · [Pixar 3D Asset (EN)](pixar-3d-asset-En.md) · [Skill Creator Engine](skill%20creator/Master-skill.md)
+**Specifications**: [General Blueprint (ZH)](skill.md) · [General Blueprint (EN)](Skill-En.md) · [VisDev Bible (ZH)](visdev.md) · [VisDev Bible (EN)](visdev-En.md) · [Pixar 3D Asset (ZH)](pixar-3d-asset.md) · [Pixar 3D Asset (EN)](pixar-3d-asset-En.md) · [Anime Character Asset (ZH)](anime-character-asset.md) · [Anime Character Asset (EN)](anime-character-asset-En.md) · [Skill Creator Engine](skill%20creator/Master-skill.md)
 
 </div>
 
@@ -227,7 +227,9 @@ character-skill/
 ├── visdev-En.md                # Film VisDev & Costume Bible Specification (English)
 ├── pixar-3d-asset.md           # 3D Pixar Character Asset Specification (Chinese)
 ├── pixar-3d-asset-En.md        # 3D Pixar Character Asset Specification (English)
-├── skill creator/              # Meta-skill manufacturing pipeline
+├── anime-character-asset.md    # Japanese Anime Character Asset Specification (Chinese)
+├── anime-character-asset-En.md # Japanese Anime Character Asset Specification (English)
+├── skill creator/              # Meta-skill manufacturing pipeline source
 │   ├── Master-skill.md         # Super master-skill assembly engine
 │   ├── Rule.md                 # Underlying constitution & global invariants
 │   ├── 4-Pillar Architecture.md# Engineering blueprint & 4-pillar model

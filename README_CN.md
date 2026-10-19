@@ -11,7 +11,7 @@
 
 [简体中文](README_CN.md) · [English](README.md)
 
-**全套规范**: [通用角色蓝图 (中)](skill.md) · [通用角色蓝图 (英)](Skill-En.md) · [影视服化道圣经 (中)](visdev.md) · [影视服化道圣经 (英)](visdev-En.md) · [3D皮克斯动画资产 (中)](pixar-3d-asset.md) · [3D皮克斯动画资产 (英)](pixar-3d-asset-En.md) · [超级母机生产线](skill%20creator/Master-skill.md)
+**全套规范**: [通用角色蓝图 (中)](skill.md) · [通用角色蓝图 (英)](Skill-En.md) · [影视服化道圣经 (中)](visdev.md) · [影视服化道圣经 (英)](visdev-En.md) · [3D皮克斯动画资产 (中)](pixar-3d-asset.md) · [3D皮克斯动画资产 (英)](pixar-3d-asset-En.md) · [日本动漫角色资产 (中)](anime-character-asset.md) · [日本动漫角色资产 (英)](anime-character-asset-En.md) · [超级母机生产线](skill%20creator/Master-skill.md)
 
 </div>
 
@@ -229,7 +229,9 @@ character-skill/
 ├── visdev-En.md                # 影视服化道圣经规范源码 (英文版)
 ├── pixar-3d-asset.md           # 3D皮克斯动画资产规范源码 (中文版)
 ├── pixar-3d-asset-En.md        # 3D皮克斯动画资产规范源码 (英文版)
-├── skill creator/              # 展示板母机元架构流水线
+├── anime-character-asset.md    # 日本顶级动漫角色资产规范源码 (中文版)
+├── anime-character-asset-En.md # 日本顶级动漫角色资产规范源码 (英文版)
+├── skill creator/              # 展示板母机元架构流水线源码
 │   ├── Master-skill.md         # 超级母机总调度与冲压引擎
 │   ├── Rule.md                 # 底层宪法与全局公理
 │   ├── 4-Pillar Architecture.md# 四位一体工程模型设计蓝图
