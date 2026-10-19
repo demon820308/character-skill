@@ -11,7 +11,7 @@
 
 [English](README.md) · [简体中文](README_CN.md)
 
-**Specifications**: [General Blueprint (ZH)](skill.md) · [General Blueprint (EN)](Skill-En.md) · [VisDev Bible (ZH)](visdev.md) · [VisDev Bible (EN)](visdev-En.md) · [Pixar 3D Asset (ZH)](pixar-3d-asset.md) · [Pixar 3D Asset (EN)](pixar-3d-asset-En.md)
+**Specifications**: [General Blueprint (ZH)](skill.md) · [General Blueprint (EN)](Skill-En.md) · [VisDev Bible (ZH)](visdev.md) · [VisDev Bible (EN)](visdev-En.md) · [Pixar 3D Asset (ZH)](pixar-3d-asset.md) · [Pixar 3D Asset (EN)](pixar-3d-asset-En.md) · [Skill Creator Engine](skill%20creator/Master-skill.md)
 
 </div>
 
@@ -152,6 +152,20 @@ Modern diffusion models (FLUX, Midjourney, DALL-E 3) do not have negative prompt
 
 ---
 
+## 🏭 Skill Creator — The Meta-Skill Architecture (The Machine that Makes the Machine)
+
+Beyond ready-to-use presentation board skills, this repository includes **`skill creator/`**, an industrial meta-skill manufacturing pipeline engineered to automatically assemble, stamp, and quality-audit brand-new domain-specific presentation board skills (e.g., Sci-Fi Mecha, Creature & Monsters, Cyberpunk Gear, Anime Model Sheets, Luxury Fashion):
+
+| Component File | Role & Engineering Mission |
+| :--- | :--- |
+| **[`Master-skill.md`](skill%20creator/Master-skill.md)** | **The Meta-Skill Master Engine**: 5-step automated SOP assembly line that ingests domain requirements and outputs 100% self-contained, zero-dependency `.md` skill files. |
+| **[`Rule.md`](skill%20creator/Rule.md)** | **Underlying Constitution**: Global invariants including default 2:3 golden ratio, 40% dominant hero anchor, pure positive affirmation, and two-turn execution gates. |
+| **[`4-Pillar Architecture.md`](skill%20creator/4-Pillar%20Architecture.md)** | **Engineering Blueprint**: 4-Pillar model uniting Spatial Skeleton, Reverse-Engineering Decompiler, Dual-Track Prompt Compiler, and Two-Turn State Machine. |
+| **[`base-text.md`](skill%20creator/base-text.md)** | **Typography Standard**: Mandatory Typography Triad (Didot Serif, tracked lore, dip-pen script), theme color extraction, and anti-glitch string injection. |
+| **[`Benchmark.md`](skill%20creator/Benchmark.md)** | **Quality Control Matrix**: 10-point quantitative inline acceptance checklist and hard blocking gates for automated virtual QA inspection. |
+
+---
+
 ## 🚀 Quick Start
 
 ### 1. Integrate with AI Agents
@@ -213,6 +227,12 @@ character-skill/
 ├── visdev-En.md                # Film VisDev & Costume Bible Specification (English)
 ├── pixar-3d-asset.md           # 3D Pixar Character Asset Specification (Chinese)
 ├── pixar-3d-asset-En.md        # 3D Pixar Character Asset Specification (English)
+├── skill creator/              # Meta-skill manufacturing pipeline
+│   ├── Master-skill.md         # Super master-skill assembly engine
+│   ├── Rule.md                 # Underlying constitution & global invariants
+│   ├── 4-Pillar Architecture.md# Engineering blueprint & 4-pillar model
+│   ├── base-text.md            # Typography triad & UI text specifications
+│   └── Benchmark.md            # Quality control matrix & acceptance gates
 ├── README.md                   # English Documentation
 └── README_CN.md                # Chinese Documentation
 ```

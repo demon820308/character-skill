@@ -11,7 +11,7 @@
 
 [简体中文](README_CN.md) · [English](README.md)
 
-**全套规范**: [通用角色蓝图 (中)](skill.md) · [通用角色蓝图 (英)](Skill-En.md) · [影视服化道圣经 (中)](visdev.md) · [影视服化道圣经 (英)](visdev-En.md) · [3D皮克斯动画资产 (中)](pixar-3d-asset.md) · [3D皮克斯动画资产 (英)](pixar-3d-asset-En.md)
+**全套规范**: [通用角色蓝图 (中)](skill.md) · [通用角色蓝图 (英)](Skill-En.md) · [影视服化道圣经 (中)](visdev.md) · [影视服化道圣经 (英)](visdev-En.md) · [3D皮克斯动画资产 (中)](pixar-3d-asset.md) · [3D皮克斯动画资产 (英)](pixar-3d-asset-En.md) · [超级母机生产线](skill%20creator/Master-skill.md)
 
 </div>
 
@@ -154,6 +154,20 @@ Prompt 体系由 **渲染画风** 与 **行业应用场景** 两维正交笛卡�
 
 ---
 
+## 🏭 Skill Creator — 展示板技能超级母机与元架构流水线 (The Machine that Makes the Machine)
+
+除了开箱即用的成品展示板技能外，本项目核心工程库包含 **`skill creator/`** 工业级元架构生产流水线。它是一套用于自动化组装、冲压、质检全新垂直领域展示板技能的“超级母机”，面向任意新题材（如科幻机甲、奇幻生物、赛博朋克装备、日漫立绘、高奢时尚等），一键交付 100% 自包含、零外部依赖的全新独立 `.md` 技能：
+
+| 构件文件 | 角色与工程使命 |
+| :--- | :--- |
+| **[`Master-skill.md`](skill%20creator/Master-skill.md)** | **展示板超级母机技能 (Meta-Skill)**：总调度与 5 步 SOP 冲压流水线，自动将底层宪法与工程图纸内联熔铸为全新领域的独立技能。 |
+| **[`Rule.md`](skill%20creator/Rule.md)** | **底层宪法与全局公理**：规定默认 2:3 纵向黄金画幅、40% 主体大立绘统治位、纯正向反粉象词法、两轮状态机等绝对不变量。 |
+| **[`4-Pillar Architecture.md`](skill%20creator/4-Pillar%20Architecture.md)** | **四位一体工程模型**：统合物理空间骨架、视觉特征语义反编译器、双轨提示词编译器（整板+纯底板）及两轮执行协议。 |
+| **[`base-text.md`](skill%20creator/base-text.md)** | **字体排版与文字规范**：确立 Didot 大标、通透正文、蘸水笔花体签名之“字体三件套”，规范服饰主题色提取与单引号注入契约。 |
+| **[`Benchmark.md`](skill%20creator/Benchmark.md)** | **质检矩阵与验收阻断线**：提供 10 大核心指标量化自检清单与一票否决门禁，保障流水线出厂质量零缺陷。 |
+
+---
+
 ## 🚀 快速上手
 
 ### 1. 接入 AI 智能体 (Agent)
@@ -215,6 +229,12 @@ character-skill/
 ├── visdev-En.md                # 影视服化道圣经规范源码 (英文版)
 ├── pixar-3d-asset.md           # 3D皮克斯动画资产规范源码 (中文版)
 ├── pixar-3d-asset-En.md        # 3D皮克斯动画资产规范源码 (英文版)
+├── skill creator/              # 展示板母机元架构流水线
+│   ├── Master-skill.md         # 超级母机总调度与冲压引擎
+│   ├── Rule.md                 # 底层宪法与全局公理
+│   ├── 4-Pillar Architecture.md# 四位一体工程模型设计蓝图
+│   ├── base-text.md            # 字体三件套与界面文字规范
+│   └── Benchmark.md            # 质检矩阵与出厂验收清单
 ├── README.md                   # 英文说明文档
 └── README_CN.md                # 中文说明文档
 ```
