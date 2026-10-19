@@ -7,7 +7,7 @@ description: "角色与资产展示板超级母机技能 (Master-Skill)。作为
 ## Universal Character & Asset Presentation Board Master Engine
 
 > **母机地位（Meta-Skill）**：本技能是整个系统的**总装配与自动化生产流水线引擎（The Machine that Makes the Machine）**。  
-> **核心使命**：将 [Rule.md](Rule.md)（底层宪法）、[4-Pillar Architecture.md](4-Pillar%20Architecture.md)（工程图纸）与 [Benchmark.md](Benchmark.md)（质检矩阵）三者熔炼为一体，对外接收任何新题材需求，对内通过工业化流水线自动组装、冲压、质检，并一键交付**100% 独立可运行、无外部引用的成品技能（`.md`）**。
+> **核心使命**：将 [Rule.md](Rule.md)（底层宪法）、[4-Pillar Architecture.md](4-Pillar%20Architecture.md)（工程图纸）、[base-text.md](base-text.md)（字体排版规范）与 [Benchmark.md](Benchmark.md)（质检矩阵）熔炼为一体，对外接收任何新题材需求，对内通过工业化流水线自动组装、冲压、质检，并一键交付**100% 独立可运行、无外部引用的成品技能（`.md`）**。
 
 ---
 
@@ -16,8 +16,8 @@ description: "角色与资产展示板超级母机技能 (Master-Skill)。作为
 母机在生产任何垂直领域的展示板技能时，必须遵守最高制造铁律：
 
 > **【静态内联铁律 (Self-Contained & Fully Portable)】**  
-> 母机流水线生产出的任何 `.md` 技能文件，必须把**执行门禁、反补丁正向词法、单引号注入语法、安全呼吸留白、两轮状态机、双模提示词模板以及领域专属自检清单**完整内化（Inline）到自身单文件内部。  
-> **生产出的技能文件中严禁包含任何指向 `Rule.md`、`Benchmark.md` 或 `skill creator/` 的外部文件引用或超链接**。  
+> 母机流水线生产出的任何 `.md` 技能文件，必须把**执行门禁、反补丁正向词法、单引号注入语法、base-text.md 字体三件套、安全呼吸留白、两轮状态机、双模提示词模板以及领域专属自检清单**完整内化（Inline）到自身单文件内部。  
+> **生产出的技能文件中严禁包含任何指向 `Rule.md`、`base-text.md`、`Benchmark.md` 或 `skill creator/` 的外部文件引用或超链接**。  
 > 任何使用者单独拷走该单文件，或者在任何全新的 Agent 环境中载入该文件，它本身即是一个自闭环、自解释、自验收、开箱即用的完整战斗体。
 
 ---
@@ -32,7 +32,7 @@ description: "角色与资产展示板超级母机技能 (Master-Skill)。作为
 │                        Master-skill 自动化铸造流水线 (SOP)                             │
 ├────────────────────────────────────────────────────────────────────────────────────────┤
 │ 1. 领域特征反编译 ──► 确定题材属性、最优物理画幅(2:3 / 1:1 / 16:9)与容器构成            │
-│ 2. 静态内联宪法   ──► 将 Rule.md 全部规则(反补丁、单引号语法、纯正向、两轮门禁)直接内化 │
+│ 2. 静态内联宪法   ──► 将 Rule.md 全部规则与 base-text.md 字体三件套直接内化              │
 │ 3. 冲压四大构件   ──► 依据 4-Pillar Architecture 在单文件内组装骨架、反编译器与提示词   │
 │ 4. 内化验收清单   ──► 将 Benchmark.md 转化为该技能尾部的专属自检验收清单 (无需外挂测试) │
 │ 5. 虚拟出厂质检   ──► 对照 Benchmark.md 阻断线自检，确保无违禁词、无硬编码、无外链     │
@@ -55,14 +55,15 @@ description: "角色与资产展示板超级母机技能 (Master-Skill)。作为
   - 工业机甲/机械爆炸图/战舰载具：选用 **16:9 横向画幅** 或 **4:3 横版**，保障水平展开面；
   - 3D 游戏资产/多维多角度拓扑：选用 **1:1 方版** 或 **3:4 竖版**，保障四方网格均衡度。
 
-### 步骤 2：静态内联底层宪法 (Constitutional Rule Inlining)
-母机在生成目标技能的 Markdown 正文时，必须将 [Rule.md](Rule.md) 规定的底层契约**直接编写为目标技能的内部章节**，严禁留出外部跳转链接：
+### 步骤 2：静态内联底层宪法与文字规范 (Constitutional & Text Inlining)
+母机在生成目标技能的 Markdown 正文时，必须将 [Rule.md](Rule.md) 与 [base-text.md](base-text.md) 规定的底层契约**直接编写为目标技能的内部章节**，严禁留出外部跳转链接：
 1. **反补丁机制（Anti-Patching）**：生成的提示词模板中严禁使用任何 `No X, Without Y` 等负向补丁词；
 2. **零硬编码原则（Zero-Hardcoding）**：模板中严禁预设任何具体服饰、材质、编号或职业偏见；
 3. **模态守恒（Modality Invariance）**：提示词强制保留原生艺术媒介（日漫/3D/写实等零异化）；
 4. **单引号语法（Explicit Quoted Strings）**：所有需要高保真渲染的 UI 英文与界面标签，强制注入显式单引号 `'...'` 包裹；
-5. **安全边距与防切保护**：强制声明画布外围 5%~8% 安全留白，全身立姿必须包含明确的 Headroom（头顶留白）与 Ground Clearance（脚底阴影留白）；
-6. **两轮状态机门禁**：强制输出 Turn 1 只读待命与 Turn 2 授权出图的双阶段交互逻辑。
+5. **字体三件套内化**：直接引用并内化 [base-text.md](base-text.md)，在生成的提示词模板中强制注入基准西文标题字体、舒展宋体与连笔手写签名，锁定大标纯英文，杜绝中英并列挤压与中文副标；
+6. **安全边距与防切保护**：强制声明画布外围 5%~8% 安全留白，全身立姿必须包含明确的 Headroom（头顶留白）与 Ground Clearance（脚底阴影留白）；
+7. **两轮状态机门禁**：强制输出 Turn 1 只读待命与 Turn 2 授权出图的双阶段交互逻辑。
 
 ### 步骤 3：流水线组装四大构件 (4-Pillar Automated Assembly)
 Master-skill 按照 [4-Pillar Architecture.md](4-Pillar%20Architecture.md) 标准，在单个 Markdown 文件内顺序冲压出 4 大构件：
@@ -84,10 +85,11 @@ Master-skill 按照 [4-Pillar Architecture.md](4-Pillar%20Architecture.md) 标�
 
 ### 步骤 4：出厂自检与阻断测试 (Factory Quality Inspection)
 在交付新技能代码前，Master-skill 必须进行出厂模拟校验：
-- [ ] **零外链检查**：新生成的技能正文中是否存在任何指向 `Rule.md`、`Benchmark.md` 等外部文件的链接？（存在即阻断）；
+- [ ] **零外链检查**：新生成的技能正文中是否存在任何指向 `Rule.md`、`base-text.md`、`Benchmark.md` 等外部文件的链接？（存在即阻断）；
 - [ ] **反补丁检查**：是否存在否定补丁词？（存在即阻断）；
 - [ ] **零硬编码检查**：是否存在写死角色的硬编码？（存在即阻断）；
 - [ ] **单引号检查**：界面单引号 `'...'` 是否 100% 闭合？（未闭合即阻断）；
+- [ ] **字体三件套检查**：提示词是否已内化 [base-text.md](base-text.md) 字体定义？大标是否纯英文无中文副标？（未内化或存在即阻断）；
 - [ ] **双模模板检查**：是否具备 Clean Plate 纯净底板？（缺少即阻断）；
 - [ ] **两轮门禁检查**：是否具备首轮停机待命指令？（缺少即阻断）。
 
