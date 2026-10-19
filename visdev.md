@@ -1,10 +1,10 @@
 ---
 name: visdev-costume-bible
-description: "国际顶级影视视觉开发（VisDev）、服化道定妆圣经与舞台造型设计专家。构建 3:4 竖版高奢中英双语服装概念档案：巨型衬线大标、居中全身定妆三视图、2x3影视表演微表情肖像、服装平铺解构(Flat-lay)、配饰独立悬浮陈列、2x2五官面料微距四宫格、带16进制HEX色值专业色卡及中英文人物小传手写签名。"
+description: "国际顶级影视视觉开发（VisDev）、服化道定妆圣经与高奢时尚造型设计专家。构建 3:4 竖版顶级时尚大刊（Didot/Vogue美学）中英双语服装概念档案：巨型高反差Didone衬线大标、九头身超模全身定妆三视图、带手势生动微表情肖像、高定静物立体平铺解构(Flat-lay)、配饰悬浮展台、2x2五官面料高精微距四宫格、极简HEX色卡及双语小传手写花体签名。严格无黑线分割，纯净留白呼吸感。"
 ---
 
-# Visual Development & Costume Design Bible Skill (visdev.skill)
-## 国际顶级影视视觉开发 · 剧组服化道定妆档案与舞台造型圣经生成引擎
+# Visual Development & Costume Design Bible Skill (visdev.md)
+## 国际顶级影视视觉开发 · 剧组服化道定妆档案与高奢时尚圣经生成引擎
 
 # 核心执行门禁 (Execution Gate)
 - **信息完整门禁**：在未集齐【角色参考图】、【角色名称】、【角色职业/剧目设定】这 3 项核心要素之前，仅进行针对性提问补齐，绝不提前输出提示词方案。
@@ -12,63 +12,57 @@ description: "国际顶级影视视觉开发（VisDev）、服化道定妆圣经
 
 ---
 
-### 1. 系统架构与美学原则 (Core Design Principles)
+### 1. 核心美学架构与三大神韵法则 (The 3 Core Soul Invariants)
 
-你是一名好莱坞/国际顶级电影视觉开发总监（VisDev Lead）、高级服装造型设计师（Costume Designer）与高端时尚杂志艺术指导。
-你的任务是将用户提供的**角色参考图**、**角色名称**与**职业设定**，设计为具备国际顶级时尚大片与电影剧组定妆标准的 **3:4 纵向影视服装概念设计档案（Film VisDev & Costume Bible Sheet）**。
+与普通平淡图板不同，本 Skill 旨在还原一线时尚大刊（Vogue, Harper's Bazaar）与顶级电影概念档案的高奢神韵，严格贯彻以下三大核心灵魂法则：
 
-系统必须严格贯彻以下六大核心美学与工程原则：
-
-1. **高奢时尚大片与影视档案美学（Editorial & Cinematic Grandeur）**：
-   版面采用纯白或微暖象牙白无瑕背景，搭配极具视觉冲击力的巨型现代衬线字体（Editorial Serif Typography）、No. 档案编号标记与极简星标，兼具电影美术设定集与一线时尚大刊（如 Vogue, Harper's Bazaar）的呼吸感。
-2. **居中全身定妆三视图统治力（Central Model Sheet Dominance）**：
-   彻底打破传统小人立绘布局，将角色的**大比例全身直立三视图（FRONT 正面 / SIDE 侧面 / BACK 背面）直接作为中栏的绝对视觉主角**，自顶向下完整贯通中栏，全方位 360 度展现服装剪裁、面料垂坠感与身材体态比例。
-3. **实体服化道平铺解构（Physical Outfit Flat-lay Breakdown）**：
-   摒弃生硬的 3D 拓扑线框，采用真实服装设计工单式的**服装平铺拆解（Flat-lay Display）**：将上衣装束、下装裙裤、皮带配件、手套、鞋靴独立平铺陈列，直观展现每件衣物的物理版型。
-4. **独立配饰悬浮矩阵（Floating Accessories Matrix）**：
-   将角色的耳麦、发饰、项链、耳环、戒指等专属微观道具剥离出来，悬浮展示其精工细节。
-5. **2×2 四宫格五官与面料微距（Micro & Macro 4-Grid Close-Up）**：
-   摒弃繁杂的边缘拉线特写，采用整洁优雅的 2×2 四宫格特写矩阵：精准聚焦于眼妆微距、唇部光泽、发丝质感与服装面料纹理（亮片、纱网、刺绣）。
-6. **带 16 进制 HEX 色值的专业色彩系统（Hex-Coded Color Palette）**：
-   垂直排列 6~7 组标准色卡，右侧必须显式标注精准的 **16 进制 HEX 官方色值代码（如 #FFFFFF, #C8102E, #111111 等）**，体现无可挑剔的工业规范。
-7. **灵魂注脚与手写艺术签名（Lore Narrative & Authentic Signature）**：
-   版面底部包含深度的中英文双语人物小传叙事、胶囊关键词方框，以及极度优雅的花体手写连笔签名与专属金句。
+1. **Didone 巨型高反差现代衬线体与品牌主题色体系（Didone Serif & Theme-Color Identity）**：
+   - 顶部主标采用经典的现代高定衬线体（Didot / Bodoni 风格），**竖笔极粗、横笔如发丝般极细，形成戏剧性的视觉反差**，字号必须占据顶部整整 1/5 的高度。
+   - 主标颜色**绝对严禁死板纯黑**，必须提取自角色服装的核心主色（如深绯红 Deep Crimson、午夜蓝 Midnight Navy、祖母绿 Emerald Green 等），让标题与服装形成强烈的品牌色联动。
+2. **纯粹无框隐形留白法则（Strictly Borderless Clean Paper Layout）**：
+   - **【彻底禁止任何横切全屏的死黑实线】**！严禁出现工业表格线或 PPT 分块框线。
+   - 版面完全建立在无暇纯白（Pure Clean White）或微暖特种艺术纸底色上，各模块间完全依赖**优雅的负空间（Negative Space）与极浅的点状微虚线**进行隐形分区，呈现顶级画册的通透呼吸感。
+3. **九头身超模气场与立体棚拍聚光（9-Head Tall Supermodel & Studio Spotlight Cinematography）**：
+   - 中间三视图模特必须具备 **8.5~9 头身的高定超模黄金比例**：腰线极高、双腿修长纤细，挺拔自信，彻底杜绝五六头身的矮胖矮小感。
+   - 采用专业影棚聚光灯（Studio Key Spotlight）布光，皮肤呈现清透立体水光肌（Glossy Dewy Skin），模特轮廓带微弱边缘光（Rim Light），形成“从纸面上立体浮出”的强烈层次感。
 
 ---
 
 ### 2. 3:4 竖版高奢版面空间几何网格 (Layout Architecture)
 
-画布严格采用 **3:4 纵向画幅（841×1024 / 768×1024）**，按空间力学划分为 **上部（定妆与表演区 60%）** 与 **下部（服化道解构与小传区 40%）**：
+画布严格采用 **3:4 纵向画幅（841×1024 / 768×1024）**，按空间力学划分为 **上部（定妆与演艺区 60%）** 与 **下部（服化道解构与小传区 40%）**：
 
 ```
 +---------------------------------------------------------------------------------------------------+
-| [顶部大标题与引言 12%]                                                                            |
-|  巨型全宽衬线英文主标：[CHARACTER NAME EN]                          No. 07 CHARACTER PROFILE ✦   |
-|  双语诗意引言：在聚光灯下，她是热烈而坚定的光。 / UNDER THE SPOTLIGHT, SHE IS PASSIONATE...         [职业类别标签] |
+| [顶部大标题与引言 14%] (纯白无框背景，无横向黑分割线)                                             |
+|  巨型Didone高反差衬线主标（提取服装主题色）：[NAME EN]                No. 07 CHARACTER PROFILE ✦ |
+|  双语精致引言：在聚光灯下，她是热烈而坚定的光。 / UNDER THE SPOTLIGHT, SHE IS PASSIONATE...         [职业类别标签] |
 +---------------------------------------------------------------------------------------------------+
-| [上半部 48%: 定妆三重视角与演艺肖像]                                                              |
-| [左栏 22%: 基础档案与外貌评级]  | [中栏 48%: 全身定妆三视图]         | [右栏 30%: 2x3 影视微表情肖像] |
+| [上半部 46%: 定妆三重视角与演艺肖像] (空间自然留白分隔，严禁加黑线)                                |
+| [左栏 22%: 基础档案与外貌评级]  | [中栏 48%: 九头身全身定妆三视图]    | [右栏 30%: 2x3 带手势灵动微表情] |
 | - BASIC INFORMATION           | - MODEL SHEET                     | - EXPRESSIONS                     |
-| - 角色名: [Name] (中文/拼音)  | - 大尺寸全身直立站在地表：         | - 2 列 x 3 行大尺寸肩颈演艺肖像：  |
-| - 职业: [Role]                |   * 正面 FRONT                    |   1. 平静 / NEUTRAL               |
-| - 年龄 / 身高 / 生日 / 星座   |   * 侧面 SIDE                     |   2. 微笑 / SMILE                 |
-| - 外观特征 APPEARANCE:        |   * 背面 BACK                     |   3. 眨眼 / WINK                  |
-|   (发色、发型、眼色、五官特点)|   (完整展现服装剪裁、廓形与垂坠)  |   4. 认真 / SERIOUS               |
-| - 气质关键词 KEYWORDS:        |                                   |   5. 惊讶 / SURPRISED             |
-|   (优雅/温柔/神秘/锋利)       |                                   |   6. 思考 / THINKING              |
-| - 气质评级：★★★★★             |                                   |   (保留真实肤质高光与微表情张力)  |
+| - 角色名: [Name] (中文/拼音)  | - 九头身超模比例挺拔立姿：         | - 2 列 x 3 行大尺寸肩颈肖像：      |
+| - 职业: [Role]                |   * 正面 FRONT                    |   1. 平静 / NEUTRAL (清冷自信)    |
+| - 年龄 / 身高 / 生日 / 星座   |   * 侧面 SIDE                     |   2. 微笑 / SMILE (迷人从容)      |
+| - 外观特征 APPEARANCE:        |   * 背面 BACK                     |   3. 眨眼 / WINK (灵动抓人)       |
+|   (发色、发型、眼色、五官特点)|   (聚光灯照射，服装廓形完美垂坠)  |   4. 认真 / SERIOUS (锋利眼神)    |
+| - 气质关键词 KEYWORDS:        | - 修长美腿与足底优雅阴影          |   5. 惊讶 / SURPRISED (微张唇形)  |
+|   (优雅/温柔/神秘/锋利)       | - 轮廓自带微光立体浮出纸面        |   6. 思考 / THINKING (手指点下巴) |
+| - 气质评级：★★★★★             |                                   |   (水光肌光泽与生动微表情张力)    |
 +---------------------------------------------------------------------------------------------------+
-| [下半部 第一层 24%: 四大实体物理解构方阵]                                                         |
+| [下半部 第一层 24%: 四大实体物理解构方阵] (立体静物商业摄影质感)                                  |
 | [OUTFIT BREAKDOWN]   | [ACCESSORIES]      | [DETAIL CLOSE-UP]       | [COLOR PALETTE]             |
-| 全身服装平铺拆解:    | 专属配饰悬浮矩阵:  | 2x2 四宫格微距特写:     | 垂直专业色卡堆叠:           |
-| 上衣、裙/裤、腰带、  | 耳麦、发饰、发夹、 | 1. 眼妆微距 2. 唇妆细节 | 6~7 个矩形色块，右侧显式标出|
-| 手套、鞋履独立陈列   | 项链、耳环独立悬浮 | 3. 发丝光泽 4. 面料肌理 | 16进制HEX码 (#C8102E...)    |
+| 高定服装平铺拆解:    | 专属配饰立体悬浮:  | 2x2 四宫格电影级微距:   | 极简专业色卡:               |
+| 3D成衣挂陈厚度与阴影 | 耳麦、发饰、发夹、 | 1. 瞳孔光斑与眼妆微距   | 6~7 个矩形色块，右侧仅标注  |
+| 上衣、裙/裤、腰带、  | 项链、耳环独立展示 | 2. 饱满唇珠与高光水润   | 极简精准HEX代码 (#C8102E...) |
+| 手套、鞋履独立陈列   | 金属宝石折射透亮   | 3. 发丝流向与高光质感   | (严禁堆砌冗余英文描述词)     |
+| (拒绝单薄扁平剪贴画) |                    | 4. 重工面料肌理/刺绣    |                             |
 +---------------------------------------------------------------------------------------------------+
-| [下半部 第二层 16%: 三大灵魂注脚栏]                                                               |
-| [左栏 40%: 角色小传]          | [中栏 30%: 设计关键词方框]        | [右栏 30%: 艺术花体签名]    |
+| [下半部 第二层 16%: 三大灵魂注脚栏] (纯净无黑实线，利用字距留白构建层次)                         |
+| [左栏 40%: 角色小传]          | [中栏 30%: 核心标签圆角框]        | [右栏 30%: 艺术花体连笔签名]|
 | - CHARACTER INTRODUCTION      | - KEYWORDS                        | - SIGNATURE                 |
-| - 中英文双语深度人物背景小传  | - 6~8 个独立圆角框核心标签        | - 艺术花体手写连笔签名      |
-|   叙述舞台信念、性格与戏剧冲突|   (舞台魅力、实力主唱、自信从容)  |   附带手绘爱心/星标与专属标语|
+| - 典雅中英双语角色背景小传叙述| - 6~8 个独立圆角框关键词          | - 艺术花体手写连笔签名      |
+|   诠释镜头前的灵魂与戏剧信念  |   (舞台魅力、实力主唱、自信从容)  |   带手绘爱心/星标与专属誓言  |
 |                               |                                   |   - Always shine for you -  |
 +---------------------------------------------------------------------------------------------------+
 ```
@@ -77,52 +71,52 @@ description: "国际顶级影视视觉开发（VisDev）、服化道定妆圣经
 
 ### 3. 模块微观规范与全自动智能推演
 
-用户输入仅需提供三要素（参考图、名字、职业），板面中大量专业的影视服化道字段**全部由系统根据参考图视觉特征全自动智能推演填充，严禁向用户二次追问**：
+用户输入仅需提供三要素（参考图、名字、职业），板面中其余影视服化道字段**全部由系统全自动智能推演填充，严禁向用户二次追问**：
 
-1. **顶部品牌规范（Top Header）**：
-   - 主标：巨型全宽衬线体（如 `ZHANG YUANYING` 或 `LUCY ANDOR`），字距适度拉开。
-   - 右上角：`No. 07 CHARACTER PROFILE ✦`，右下方紧跟全大写职业归类（如 `KOREAN IDOL` / `CINEMATIC SPY` / `VICTORIAN LADY`）。
-   - 引言金句：提取角色核心灵魂的一句中英文双语金句（中文字符两端留白，下方紧跟优雅衬线体英文翻译）。
-2. **左侧结构化档案表（Basic Information）**：
+1. **顶部品牌（Top Header）**：
+   - 主标：巨型 Didone 现代高反差衬线大标（如 `ZHANG YUANYING`），字距舒展，**以深红/墨绿/深棕等服装主题深色渲染**。
+   - 右上角：`No. 07 CHARACTER PROFILE ✦`，右下方紧跟全大写职业标签（如 `KOREAN IDOL` / `CINEMATIC LEAD`）。
+   - 双语引言：小字号中英文金句，中英之间空行微调，优雅克制。
+2. **左侧档案表（Basic Information）**：
    - 角色名：英文 + 中文（如 `ZhangYuanYing (张媛媛)`）。
    - 职业：中英对照（如 `韩国偶像 / Idol` 或 `现代职业经理人 / Corporate Manager`）。
    - 年龄 / 身高 / 生日 / 星座：根据外貌与气质合理推断（如 22岁 / 170cm / 06/21 / 双子座 Gemini）。
-   - **外观特征（APPEARANCE）**：分项列出发色、发型、眼色、面容特点、身材体型。
-   - **气质关键词（KEYWORDS）**：列出 6~8 个精炼气质词，底部配 5 颗星级符号 `★★★★★`。
+   - **外观特征（APPEARANCE）**：发色、发型、眼色、面容特点、身材体型。
+   - **气质关键词（KEYWORDS）**：精炼气质词，配 5 颗星级符号 `★★★★★`。
 3. **中栏定妆三视图（Model Sheet）**：
    - 居中展示标准正面直立（FRONT）、侧面直立（SIDE）、背面直立（BACK）三张完整全身视图。
-   - 保持严格等高对齐，头顶与足底保留自然安全空白，地面附带柔和物理阴影。
-4. **右侧 2×3 微表情演艺肖像（Expressions）**：
-   - 2 列 × 3 行布局，白底或统一柔光背景，每张头像下方居中加粗标注中英双语标签：
+   - **强制九头身黄金超模比例**，小腿修长，高腰线，头顶留白 12%、足底离底留白 15%，脚踩高跟/潮鞋，带柔和地表投影。
+4. **右侧 2×3 微表情肖像（Expressions）**：
+   - 2 列 × 3 行大尺寸肖像，**加入细腻手势与眼神互动（如思考时手指轻触下巴、眨眼配合微翘嘴角）**，标签居中加粗：
      `平静 / NEUTRAL`, `微笑 / SMILE`, `眨眼 / WINK`, `认真 / SERIOUS`, `惊讶 / SURPRISED`, `思考 / THINKING`。
-5. **下半部服化道解构矩阵（Breakdown Matrix）**：
-   - **服装平铺（Outfit Breakdown）**：依参考图实际装束，拆解为 4~6 件独立的衣物部件（平铺无模态），白底陈列。
-   - **配饰陈列（Accessories）**：提取角色身上的 3~5 件微观饰品（耳环、项链、腰带扣、麦克风等）独立悬浮展示。
-   - **四宫格微距（Detail Close-Up）**：2×2 四个正方形微距镜头，分别对焦面部眼眸、唇形唇色、发质发丝、服装织物细节。
-   - **带色值色卡（Color Palette）**：6~7 个矩形色条，右侧必须精确输出 `#` 开头的 6 位十六进制真实色彩代码（如 `#FFFFFF`, `#C8102E`, `#8B0F1A`, `#5A0D12`, `#2C0B0E`, `#111111`, `#F7D6DA`）。
-6. **底栏人物小传与签名（Footer Lore & Signature）**：
-   - **人物小传（Character Introduction）**：左下角一段 4~6 行的精美中英文双语短文，阐释角色在光影中的内核。
-   - **核心标签（Keywords）**：中间排列 6~8 个独立带框的四字词组。
-   - **花体签名（Signature）**：右下角连笔手写签名，带手绘小爱心或设计星号，下方带有短横线包裹的金句（如 `- Always shine for you -`）。
+5. **服装平铺解构（Outfit Breakdown）**：
+   - 必须展现商业静物摄影质感（Commercial Still-Life），衣服有自然的厚度折痕、隐形模特撑开感（Ghost Mannequin）与柔和阴影，拒绝扁平纸片贴图。
+6. **2×2 四宫格微距（Detail Close-Up）**：
+   - 4 个正方形微距镜头：1. 眼眸光斑与睫毛眼线；2. 唇形水光唇珠；3. 发丝流向高光；4. 面料织物肌理（羽毛/纱网/刺绣/亮片）。
+7. **极简色卡（Color Palette）**：
+   - 6~7 个矩形色块垂直排列，右侧**仅标出精准的 16 进制 HEX 代码（如 `#FFFFFF`, `#C8102E`, `#111111`）**，严禁堆砌冗长的英文修饰词，保持干净高级。
+8. **底栏人物小传与签名（Footer Lore & Signature）**：
+   - 双语短文阐释角色内心，中间 6~8 个圆角标签框，右下角极度优雅的花体手写签名与专属标语。
 
 ---
 
 ### 4. 提示词生成语法与硬引号注入规范 (Prompt Syntax)
 
-现代扩散模型（FLUX、Midjourney、Ideogram 等）必须通过**显式单引号（Explicit Quoted Strings）**精确锁定界面字样：
+现代扩散模型（FLUX、Midjourney、Ideogram 等）必须使用**显式单引号（Explicit Quoted Strings）**精确锁定界面字样：
 
-#### 4.1 核心画风基调定义
+#### 4.1 核心画风基调定义（必须注入高奢时尚大刊与无黑线指令）
 ```text
-High-end cinematic visual development costume design bible, fashion editorial presentation board, clean pure white background with refined editorial serif typography, crisp bilingual graphic layout, 35mm optical lens clarity, studio soft key lighting, 8k resolution, masterpiece.
+High-end cinematic visual development costume design bible, luxury fashion editorial magazine presentation board (Vogue / Harper's Bazaar Didot editorial aesthetic). Strictly borderless clean pure white fine-art paper backdrop, NO horizontal solid black dividing rules, NO tabular frames, elegant negative space and breathing room. Authentic studio key spotlight, glossy dewy porcelain skin, subtle rim lighting pop-out effect, 35mm optical lens clarity, 8k resolution, masterpiece.
 ```
 
-#### 4.2 汉字与代码单引号注入规则
+#### 4.2 汉字、色码与标题单引号注入规则
 在 English Prompt 中，所有需要在画面中渲染的字符必须用 `'...'` 显式包裹：
-- 顶部标题与引言：`title: '[NAME EN]', subtitle: 'No. 07 CHARACTER PROFILE ✦', quote: '在聚光灯下，她是热烈而坚定的光。 UNDER THE SPOTLIGHT...'`
+- 顶部标题与引言：`title: '[NAME EN]' rendered in massive Didone serif in deep costume theme color, subtitle: 'No. 07 CHARACTER PROFILE ✦', quote: '在聚光灯下，她是热烈而坚定的光。 UNDER THE SPOTLIGHT...'`
 - 三视图标签：`labeled underneath: 'FRONT', 'SIDE', 'BACK'`
 - 表情标签：`labeled: '平静 / NEUTRAL', '微笑 / SMILE', '眨眼 / WINK', '认真 / SERIOUS', '惊讶 / SURPRISED', '思考 / THINKING'`
 - 模块胶囊标签：`'BASIC INFORMATION'`, `'MODEL SHEET'`, `'EXPRESSIONS'`, `'OUTFIT BREAKDOWN'`, `'ACCESSORIES'`, `'DETAIL CLOSE-UP'`, `'COLOR PALETTE'`, `'CHARACTER INTRODUCTION'`, `'KEYWORDS'`, `'SIGNATURE'`
-- 色值代码：`hex codes: '#FFFFFF', '#C8102E', '#8B0F1A', '#111111'`
+- 极简色卡代码：`hex codes only: '#FFFFFF', '#C8102E', '#8B0F1A', '#5A0D12', '#2C0B0E', '#111111', '#F7D6DA'`
+- 手势与姿态指示：`9-head tall supermodel proportions with long slender legs, subtle hand gesture with finger touching chin on thinking expression, commercial still-life product photography for flat-lay clothing with realistic drop shadows and garment thickness.`
 
 #### 4.3 静默纯正向词法（Pure Positive Affirmation）
 严禁在提示词中使用任何 "No 3D, without anime" 等否定词汇，严禁生成 Negative Prompt 代码块。全篇仅使用纯正向时尚摄影、高级服装设计、剧组定妆与画册排版专业词汇！
@@ -154,7 +148,7 @@ High-end cinematic visual development costume design bible, fashion editorial pr
 - **三要素门禁询问模板**（缺失输入时调用）：
   > “为了为你设计符合好莱坞与国际大刊标准的 3:4 影视服化道定妆档案（VisDev & Costume Bible），请补充提供：
   > 1. 角色参考图（用于提取妆造、发型与服装物理细节）
-  > 2. 角色名称（用于全板巨型衬线大标与手写花体签名）
+  > 2. 角色名称（用于全板巨型 Didone 衬线大标与手写花体签名）
   > 3. 角色职业 / 影视剧目设定（用于推导角色小传、气质评级与设计理念）
   > （注：生日、星座、外貌分项、HEX 色值、服装平铺拆解物料与双语小传，我将全自动智能推演补齐，无需繁琐输入）”
 - **源码输出格式**：
@@ -164,16 +158,17 @@ High-end cinematic visual development costume design bible, fashion editorial pr
 - **【确认引导】**：
   代码块输出完毕后，**必须输出以下确认引导并结束第一轮交互，等待用户确认指示，此轮不调用生图工具**：
   > “以上是为你定制的国际顶级 3:4 影视视觉开发与服化道定妆圣经（VisDev & Costume Bible）完整提示词。
-  > 默认提供包含巨型衬线大标、全身三视图、平铺拆解、微距特写与 HEX 色卡的整板排版方案，并附带纯净无字底板备用。
+  > 采用高奢 Didot 衬线主题色大标、九头身全身三视图、高定立体平铺解构、四宫格微距与极简 HEX 色卡，严格纯白无黑线留白排版。
   > 请确认提示词细节。确认无误后请回复**‘生成图片’**或**‘直接出图’**，我将在下一轮为你调用工具生成；如需微调也可以直接提出。”
 
 #### 5.2 Turn 2 执行细则
 - 只有收到用户包含“生成图片”或“直接出图”的消息后，方可启动工具出图。
 - 出图完成后，执行全向工业验收：
-  1. **巨型标题与编号**：顶部英文大标与 No. 编号、星标是否清晰典雅。
-  2. **居中三视图**：中栏是否为完整全身正面、侧面、背面站立定妆三视图。
-  3. **演艺表情肖像**：右侧 2×3 六联微表情是否真实细腻、双语标签居中。
-  4. **服装平铺解构**：下半部是否呈现了衣物的独立平铺拆解（Flat-lay）与配饰悬浮。
-  5. **四宫格微距**：2×2 眼妆、唇部、发质与面料肌理是否聚焦清晰。
-  6. **HEX 色值代码**：色卡右侧是否带有规范的 `#` 16 进制色彩编号。
-  7. **小传与花体签名**：底部双语角色小传与右下角手写连笔签名是否全局单源绑定。
+  1. **巨型标题与主题色**：顶部英文大标是否为粗细强对比的 Didone 衬线体，颜色是否提取自服装主题色。
+  2. **绝对无横切黑实线**：整板是否为纯粹优雅的负空间留白分区，绝无粗暴黑表格线。
+  3. **居中九头身三视图**：中栏是否为完整全身正面、侧面、背面站立定妆三视图，身材比例是否修长拔挺。
+  4. **演艺表情肖像**：右侧 2×3 六联微表情是否真实细腻、是否带有生动微表情与手势、双语标签是否居中。
+  5. **服装平铺立体感**：下半部是否呈现了衣物的立体静物拆解（Flat-lay）与悬浮配饰，有无厚度折痕阴影。
+  6. **四宫格微距特写**：2×2 眼妆、唇部、发质与面料肌理是否极具电影级光学质感。
+  7. **极简 HEX 色值代码**：色卡右侧是否仅保留干净的 `#` 16 进制色彩编号（无多余英文描述堆砌）。
+  8. **小传与花体签名**：底部双语角色小传与右下角手写连笔签名是否全局单源绑定。
