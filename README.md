@@ -9,7 +9,9 @@
 [![Modality](https://img.shields.io/badge/Modality-Photo%20%7C%203D%20%7C%20Anime-orange.svg)](#orthogonal-matrix-engine)
 [![Language](https://img.shields.io/badge/Language-English%20%7C%20%E4%B8%AD%E6%96%87-blueviolet.svg)](README_CN.md)
 
-[English](README.md) · [简体中文](README_CN.md) · [Specification (ZH)](skill.md) · [Specification (EN)](Skill-En.md)
+[English](README.md) · [简体中文](README_CN.md)
+
+**Specifications**: [General Blueprint (ZH)](skill.md) · [General Blueprint (EN)](Skill-En.md) · [VisDev Bible (ZH)](visdev.md) · [VisDev Bible (EN)](visdev-En.md) · [Pixar 3D Asset (ZH)](pixar-3d-asset.md) · [Pixar 3D Asset (EN)](pixar-3d-asset-En.md)
 
 </div>
 
@@ -81,6 +83,28 @@ Engineered for AAA game studios, animation houses, and concept artists, it stand
 
 <div align="center">
   <img src="assets/05_seraphina_benchmark.jpg" width="85%" alt="Aesthetic Benchmark - Seraphina" />
+</div>
+
+---
+
+### 6. Film Visual Development & Costume Design Bible (`Film & Fashion VisDev Branch`)
+> **Subject**: Li Mengting (李梦婷) · Fashion Model (时装模特)  
+> **Specification**: [visdev.md](visdev.md) (ZH) · [visdev-En.md](visdev-En.md) (EN)  
+> **Key Features**: 2:3 vertical golden aspect ratio, Didot two-line theme header, 9-head full-body turnaround (`FRONT`, `SIDE`, `BACK`), 6-expression photographic performance matrix, haute couture floral corset & skirt flat-lay deconstruction, floating ear cuff & bracelet accessories, 2x2 optical macro close-up grid, and 6-tone industrial HEX palette with cursive signature.
+
+<div align="center">
+  <img src="assets/06_li_mengting_visdev.jpg" width="85%" alt="Film VisDev & Costume Bible - Li Mengting" />
+</div>
+
+---
+
+### 7. Hollywood 3D Pixar Animation Character Asset & LookDev Sheet (`Feature Animation LookDev Branch`)
+> **Subject**: Xiyao (夕瑶) · Academy Student (星轨学院学员)  
+> **Specification**: [pixar-3d-asset.md](pixar-3d-asset.md) (ZH) · [pixar-3d-asset-En.md](pixar-3d-asset-En.md) (EN)  
+> **Key Features**: 2:3 vertical golden aspect ratio, 40% dominant full-body hero master appeal pose, full-color orthographic turnaround model sheet, exaggerated 6-expression Pixar Squash-and-Stretch matrix, tactile chiffon dress & starlit halo breakdown, 4 PBR shader preview spheres (SSS skin, fiber-optic, chiffon, metallic), 2x2 macro grid, and industrial HEX palette with cursive signature.
+
+<div align="center">
+  <img src="assets/07_xiyao_pixar_3d_asset.jpg" width="85%" alt="3D Pixar Character Asset & LookDev Sheet - Xiyao" />
 </div>
 
 ---
@@ -180,9 +204,15 @@ character-skill/
 │   ├── 02_lucy_andor_real_photo.jpg
 │   ├── 03_wang_yiting_3d_game.png
 │   ├── 04_balagui_3d_stylized.jpg
-│   └── 05_seraphina_benchmark.jpg
-├── skill.md                    # Core Skill Specification (Chinese)
-├── Skill-En.md                 # Core Skill Specification (English)
+│   ├── 05_seraphina_benchmark.jpg
+│   ├── 06_li_mengting_visdev.jpg
+│   └── 07_xiyao_pixar_3d_asset.jpg
+├── skill.md                    # Core Blueprint Specification (Chinese)
+├── Skill-En.md                 # Core Blueprint Specification (English)
+├── visdev.md                   # Film VisDev & Costume Bible Specification (Chinese)
+├── visdev-En.md                # Film VisDev & Costume Bible Specification (English)
+├── pixar-3d-asset.md           # 3D Pixar Character Asset Specification (Chinese)
+├── pixar-3d-asset-En.md        # 3D Pixar Character Asset Specification (English)
 ├── README.md                   # English Documentation
 └── README_CN.md                # Chinese Documentation
 ```

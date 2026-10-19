@@ -123,14 +123,15 @@ description: "国际顶级影视视觉开发（VisDev）、剧组服化道定妆
   - 系统客观提取参考图服装或装备中最具视觉统治地位的核心深色作为全图的“品牌主色”（用于顶部双行巨标与强调元数据）。
   - 色彩完全源于参考图像素真实采样，严禁主观捏造色调。
 - **全板核心字体三件套（Typography Triad - 100% 恒定锁定）**：
-  本展板属于国际高奢影视服装概念档案，无需多字体自适应切换，全板严格统一定义三大字型：
-  1. **结构与西文标题**：`High-contrast editorial Didone serif (all uppercase)`（主标、元数据、8 大容器标题、三视图标签统一衬线）；
-  2. **中文正文与诗意引言**：`Airy tracked Songti (spaced Chinese characters)`（宋体字距拉开，优雅通透）；
-  3. **专属艺术签名**：`Flowing cursive handwritten script in black ink`（黑色连笔手写花体，点睛收尾）。
-- **三条防翻车硬规避**：
-  - **顶部主标纯英文**：主标严格采用两行垂直堆叠纯英文字符 `'[NAME_LINE_1] ✦'` 与 `'[NAME_LINE_2]'`，以服饰主题色渲染。中文角色名仅在个人档案区与签名处出现，**严禁在顶部主标同一行或左右放置大号中文角色名**。
+  本展板属于国际高奢影视服装概念档案，无需多字体自适应切换，全板严格统一定义三大字型，并严格通过字阶、字距与主题色拉开层次：
+  1. **结构与西文标题**：`Razor-sharp high-contrast Didot/Bodoni editorial serif with ultra-thin hairline horizontal strokes (all uppercase, widely tracked)`（主标、元数据、8 大容器标题、三视图标签统一衬线；容器标题与属性名必须继承服饰主题色 `[THEME_COLOR]`，严禁单调纯黑）；
+  2. **中文正文与诗意引言**：`Airy tracked Songti (spaced Chinese characters)`（宋体字距拉开，横细竖粗，优雅通透）；
+  3. **专属艺术签名**：`Delicate fine-nib dip-pen cursive handwritten script in thin black ink`（黑色纤细蘸水笔花体手写签名，大开大合的连笔弧线）。
+- **四条防翻车硬规避**：
+  - **顶部主标纯英文与短名防挤压**：主标严格采用两行垂直堆叠纯英文字符 `'[NAME_LINE_1]'` 与 `'[NAME_LINE_2] ✦'`，以服饰主题色渲染。中文角色名仅在个人档案区与签名处出现，**严禁在顶部主标同一行或左右放置大号中文角色名**。**若英文名较短（如 LI、DAN），引言必须严格独立换到第 3 行，绝不与第 1 行或第 2 行水平并排**。
   - **右上角元数据天平**：`No. [ID]` / `CHARACTER PROFILE` / `✦` / `[OCCUPATION_CAPS]` (纯大写、宽字距) / 虚线细线，**严禁在右上角插入括号中文**。
-  - **容器大标纯英文**：8 大容器大标 100% 纯英文大写 Serif，**绝对严禁添加任何中文副标题（如严禁标注“装束拆解”、“配饰细节”、“2x2微距”、“工业色卡”、“人物小传”等）**。
+  - **容器大标纯英文大写与主题色**：8 大容器大标 100% 纯英文大写 Didot 衬线体，**以主题色 `[THEME_COLOR]` 渲染并拉开宽字距**，**绝对严禁添加任何中文副标题（如严禁标注“装束拆解”、“配饰细节”、“2x2微距”、“工业色卡”、“人物小传”等）**。
+  - **档案与关键词中英秩序**：个人档案必须严格保持结构化双语字段排版，严禁退化为密集英文长段；中栏 `KEYWORDS` 必须保持 3 行中文四字词阵，严禁私自替换为英文单词列表。
 
 #### 3.2 服化道成衣平铺拆解通道（OUTFIT BREAKDOWN）
 - **人体穿戴拓扑层解构公理**：
@@ -145,7 +146,7 @@ description: "国际顶级影视视觉开发（VisDev）、剧组服化道定妆
 - **标志性随身道具剥离公理**：
   - 从角色身上客观剥离出 **2~4 件极具身份特征的随身佩饰、微观装备或核心道具**。
 - **物理真实剥离与绝对零幻觉公理（Zero Hallucination Axiom）**：
-  - **必须 100% 来源于参考图中实际可见的饰品与物件**（例如若角色仅戴珍珠耳钉，颈部与手腕完全裸露，则仅展示耳钉，**绝对严禁凭空添加项链、手链、麦克风耳机等不存在的道具**）。角色的职业设定仅用于文字小传与气质推演，**绝不能作为向画面凭空脑补实物道具的借口**！
+  - **必须 100% 来源于参考图中实际可见的饰品与物件**（例如若角色仅戴珍珠耳钉，颈部与手腕完全裸露，则仅展示耳钉，**绝对严禁凭空添加项链、手链、麦克风耳机等不存在的道具**）。角色的职业设定仅用于文字小传与气质推演，**绝不能作为向画面凭空脑补实物道具的借口**！严禁以“角色职业是模特/学生/商务人士”为由擅自脑补手提包、皮箱、作品集、画册、笔记本等物件，无随身道具时仅展示实际可见的微观耳饰、发饰或手绳。
 - **展陈形式**：独立悬浮展示于展台上方，展示通透的物理折射高光与精工质感。
 - **纯视觉陈列与纯英标题铁律**：容器大标必须为纯英文 `'ACCESSORIES'`（**严禁添加中文副标题“配饰细节”**）；内部绝无多余小文字。
 
@@ -160,14 +161,14 @@ description: "国际顶级影视视觉开发（VisDev）、剧组服化道定妆
   - 四宫格内部**绝对禁止出现 (1), (2), (3), (4) 序号或任何角标！绝对禁止出现任何说明文字！** 保持纯净无暇的光学微距摄影拼接。
 
 #### 3.5 演艺微表情张力通道（EXPRESSIONS）
-- **斯坦尼斯拉夫斯基六维戏剧张力弧线**：
-  - 2 列 × 3 行大尺寸肖像，根据角色自身人设与性格动态演绎 6 种微表情，**必须结合眼神焦点变化与生动手部肢体微动，杜绝呆滞死板的证件照**：
-    1. `平静 / NEUTRAL`：角色常态基准神态（清冷审视、从容沉稳或温和内敛）；
-    2. `微笑 / SMILE`：积极情绪（自信微笑、迷人弧度或温和笑意）；
-    3. `眨眼 / WINK`：标志性灵动特写（灵动眨眼、微翘唇角或冷峻挑眉）；
-    4. `认真 / SERIOUS`：职业/战备专注状态（深邃凝视目标、严谨专注或神情坚定）；
-    5. `惊讶 / SURPRISED`：突发情境反应（警惕戒备、瞳孔微震或神情微凝）；
-    6. `思考 / THINKING`：内心戏独白，**必须搭配手部肢体微动**（如手指轻触下颌、按扶耳机、整理袖口手套等）。
+- **六维戏剧张力弧线（随角色动态定制）**：
+  - 2 列 × 3 行大尺寸肖像，根据角色人设与剧情情境定制 6 种演艺神态与双语标签，结合眼神焦点变化与手部肢体微动：
+    1. 基准常态神态（如：`平静 / NEUTRAL`、`清冷审视 / POISED`、`从容温和 / SERENE`）；
+    2. 积极情绪神态（如：`微笑 / SMILE`、`浅笑嫣然 / RADIANT`、`轻蔑从容 / SMIRK`）；
+    3. 标志特征微动（如：`眨眼 / WINK`、`灵动侧目 / VIVID`、`冷峻挑眉 / COLD`）；
+    4. 专注/战备状态（如：`认真 / SERIOUS`、`定妆专注 / INTENSE`、`战意锁定 / FOCUSED`）；
+    5. 突发情境反应（如：`惊讶 / SURPRISED`、`警惕戒备 / ALERT`、`不经之态 / CANDID`）；
+    6. 深度内心独白（如：`思考 / THINKING`、`低眉沉吟 / PENSIVE`、`压迫审判 / JUDGING`，**必须搭配手部肢体微动**）。
 - **画风模态绝对统一公理（Modality Consistency Lock）**：
   - 所有 6 联微表情肖像必须全部为**全彩写实摄影人像（Full-color photographic portraits）**，严格继承主角色的肤色、光影、妆容与发丝质感，**绝对严禁裂变为黑白线稿、动漫线描或二次元铅笔草图（Zero 2D manga, zero monochrome sketches）**。
   - 底部标签居中双语标注：`'[表情1_ZH] / [EXPR_1_EN]'`。
@@ -195,30 +196,44 @@ High-end cinematic visual development costume design bible, luxury editorial pre
 #### 4.2 汉字、色码与界面单引号注入模板
 在 English Prompt 中，必须首先显式注入字体三件套总控声明：
 ```text
-Typography: global UI titles and container headers strictly rendered in high-contrast editorial Didone serif in all uppercase; Chinese quotes and lore in elegant airy tracked Songti; character signature in flowing cursive handwritten script in black ink.
+Typography: global UI titles and container headers strictly rendered in razor-sharp high-contrast Didot editorial serif with ultra-thin hairline horizontal strokes in all uppercase, rendered in costume theme color '[THEME_COLOR]' with generous wide tracking; Chinese quotes and lore in elegant airy tracked Songti; character signature in delicate fine-nib dip-pen cursive handwritten script in thin black ink.
 ```
 
-所有需要在画面中渲染的字符必须用 `'...'` 显式包裹：
-- **顶部标题与引言**：
-  `top header: stacked two-line '[NAME_LINE_1] ✦' on line 1 and '[NAME_LINE_2]' on line 2 in massive high-contrast serif rendered in deep costume theme color '[THEME_COLOR]', with strictly zero Chinese characters beside the English title, tracked Songti Chinese quote directly underneath: '[QUOTE_ZH]', followed by small tracked serif English quote: '[QUOTE_EN]'. Top-right metadata stack: 'No. [ID]' / 'CHARACTER PROFILE' / '✦' / '[OCCUPATION_CAPS]' in widely tracked uppercase serif / dotted hairline, with strictly zero parenthetical translations.`
-- **容器大标纯英文大写 Serif（严禁中文副标）**：
-  `container headers: all section headers are strictly 100% pure English uppercase serif: 'BASIC INFORMATION', 'MODEL SHEET', 'EXPRESSIONS', 'OUTFIT BREAKDOWN', 'ACCESSORIES', 'DETAIL CLOSE-UP', 'COLOR PALETTE', 'CHARACTER INTRODUCTION', 'KEYWORDS', 'SIGNATURE', strictly forbidding any Chinese subtitles under container headers.`
-- **三视图标签与剪裁锁定**：
-  `MODEL SHEET: 3 full-body turnaround figures in standing pose (front, 90-degree side, back), strictly preserving the exact dress neckline and silhouette of the reference image, labeled underneath in pure English serif: 'FRONT', 'SIDE', 'BACK', with zero Chinese labels.`
-- **全彩演艺微表情（严禁黑白线稿）**：
-  `EXPRESSIONS: 2x3 grid of 6 full-color photographic portraits sharing identical skin tone, soft studio key lighting, and realistic texture with the model sheet, strictly forbidding monochrome or manga sketches, each portrait labeled underneath with bilingual centered text: '[EXPR_1_ZH] / [EXPR_1_EN]', '[EXPR_2_ZH] / [EXPR_2_EN]', '[EXPR_3_ZH] / [EXPR_3_EN]', '[EXPR_4_ZH] / [EXPR_4_EN]', '[EXPR_5_ZH] / [EXPR_5_EN]', '[EXPR_6_ZH] / [EXPR_6_EN]'`
-- **成衣平铺与配饰展台（零虚构零文字）**：
-  `OUTFIT BREAKDOWN: pure commercial still-life flat-lay deconstructing solely the garments actually worn in reference image, with zero hallucinated cardigans, jackets, or extra layers, purely visual uncaptioned display. ACCESSORIES: standalone floating display isolating solely the accessories visibly worn in reference image, with zero hallucinated headsets, necklaces, or bracelets, purely visual uncaptioned display.`
-- **四宫格微距（纯净无标无数字）**：
-  `DETAIL CLOSE-UP: seamless 2x2 macro square grid of pristine photographic close-ups, strictly uncaptioned with zero corner numbers, zero index digits (1)/(2)/(3)/(4), zero badges, and zero text overlay.`
-- **工业色卡系统**：
-  `COLOR PALETTE: vertical stack of clean rectangular color chips labeled strictly with 6-digit hex codes e.g. '#HEX_1', '#HEX_2', '#HEX_3' on the right, with zero English color name clutter`
-- **双语人物小传**：
-  `CHARACTER INTRODUCTION: dual-language poetic lore with Chinese paragraph in tracked Songti and English paragraph in fine tracked serif.`
-- **无框浮动关键词**：
-  `KEYWORDS: 3 rows of borderless floating Chinese keywords with generous letter spacing, strictly zero square brackets [...], zero button boxes, and zero borders.`
-- **艺术花体签名与金句（防指令泄露）**：
-  `SIGNATURE: elegant cursive handwritten script signature of '[CharacterName] ♡' in black ink, dotted hairline, followed by centered tracked motto '- [THEMATIC_MOTTO] -', strictly zero procedural prompt leakage.`
+所有需要在画面中渲染的字符必须用 `'...'` 显式包裹，且提示词必须严格按照 **4 层横向空间栅格（4-Tier Horizontal Grid Architecture）** 依序声明：
+
+```text
+[PAGE LAYOUT: STRICT 4-TIER HORIZONTAL GRID ARCHITECTURE, 100% BORDERLESS WHITE ART PAPER, ZERO SOLID BLACK DIVIDING LINES]
+
+TIER 1 (Top 14% Full-Width Header Band):
+- Top-Left: massive stacked two-line title in razor-sharp high-contrast Didot serif with ultra-thin hairline horizontal strokes, rendered in costume theme color '[THEME_COLOR]': line 1 '[NAME_LINE_1]' and line 2 '[NAME_LINE_2] ✦'. Strictly zero Chinese characters on line 1 or line 2.
+- Isolated underneath on line 3: tracked Songti Chinese quote directly below the title: '[QUOTE_ZH]', followed underneath by small tracked serif English quote: '[QUOTE_EN]'.
+- Top-Right: widely tracked uppercase serif metadata stack: 'No. [ID]' / 'CHARACTER PROFILE' / '✦' / '[OCCUPATION_CAPS]' / dotted hairline, with strictly zero parenthetical translations.
+
+TIER 2 (Upper-Middle 46% Studio Stage - STRICT 3-COLUMN PARALLEL ROW, ALIGNED ON SAME HORIZONTAL BASELINE):
+- Left Column (25% width): 'BASIC INFORMATION' in '[THEME_COLOR]' Didot serif. Vertical stacked editorial poster hierarchy with zero horizontal colons and zero table formatting, small muted labels stacked directly above larger values:
+  stacked '角色名' on top and '[NameEn]' with '([NameZh])' directly below;
+  stacked '职业' on top and '[RoleZh] / [RoleEn]' directly below;
+  stacked '年龄 / AGE' on top and '[Age]' directly below;
+  stacked '身高 / HEIGHT' on top and '[Height]' directly below;
+  stacked '生日 / BIRTHDAY' on top and '[Birthday]' directly below;
+  stacked '星座 / CONSTELLATION' on top and '[Constellation]' directly below;
+  indented appearance bullet points: '- 发色: ...', '- 发型: ...', '- 瞳色: ...', '- 特点: ...', '- 体型: ...';
+  stacked '气质关键词 / KEYWORDS' with '[Trait1] / [Trait2] / [Trait3] / [Trait4]'.
+- Center Column (45% width): 'MODEL SHEET' in '[THEME_COLOR]' Didot serif. 3 full-body turnaround figures in standing pose (front, 90-degree side, back), strictly preserving the exact dress neckline and silhouette of the reference image, labeled underneath in pure English serif: 'FRONT', 'SIDE', 'BACK', on natural contact shadows.
+- Right Column (30% width): 'EXPRESSIONS' in '[THEME_COLOR]' Didot serif. 2x3 grid of 6 full-color photographic portraits customized to character persona, sharing identical skin tone and studio key lighting with model sheet, labeled underneath with centered bilingual text: '[EXPR_1_ZH] / [EXPR_1_EN]', '[EXPR_2_ZH] / [EXPR_2_EN]', '[EXPR_3_ZH] / [EXPR_3_EN]', '[EXPR_4_ZH] / [EXPR_4_EN]', '[EXPR_5_ZH] / [EXPR_5_EN]', '[EXPR_6_ZH] / [EXPR_6_EN]'.
+
+TIER 3 (Lower-Middle 24% Physical Deconstruction - STRICT 4-COLUMN PARALLEL ROW, ALIGNED SIDE-BY-SIDE):
+- Column 1 (28% width): 'OUTFIT BREAKDOWN' in '[THEME_COLOR]' Didot serif. Compact commercial still-life flat-lay with neatly folded garment drapery and footwear, purely visual uncaptioned display with fabric thickness.
+- Column 2 (16% width): 'ACCESSORIES' in '[THEME_COLOR]' Didot serif. Compact standalone floating display isolating solely the visible delicate personal accessories worn in reference image, purely visual uncaptioned display.
+- Column 3 (36% width): 'DETAIL CLOSE-UP' in '[THEME_COLOR]' Didot serif. Compact seamless 2x2 macro square grid of pristine photographic close-ups, strictly uncaptioned with zero corner numbers and zero badges.
+- Column 4 (20% width): 'COLOR PALETTE' in '[THEME_COLOR]' Didot serif. Strictly positioned on far-right of Tier 3, vertical stack of clean rectangular color chips labeled strictly with 6-digit hex codes on the right: '#HEX_1', '#HEX_2', '#HEX_3', '#HEX_4', '#HEX_5', '#HEX_6'.
+(Strictly all 4 items aligned horizontally side-by-side in one single row, zero black dividing lines).
+
+TIER 4 (Bottom 16% Lore & Identity - STRICT 3-COLUMN FOOTER ROW):
+- Left Column (42% width): 'CHARACTER INTRODUCTION' in '[THEME_COLOR]' Didot serif. Dual-language poetic lore with Chinese paragraph in tracked Songti and English paragraph in fine tracked serif.
+- Center Column (28% width): 'KEYWORDS' in '[THEME_COLOR]' Didot serif. Strictly 3 rows of borderless floating Chinese four-character idioms in elegant tracked Songti (e.g. '[WORD_1]  [WORD_2]  [WORD_3]' / '[WORD_4]  [WORD_5]  [WORD_6]' / '[WORD_7]  [WORD_8]').
+- Right Column (30% width): 'SIGNATURE' in '[THEME_COLOR]' Didot serif. Delicate fine-nib dip-pen cursive handwritten script signature of '[CharacterName]' in thin black ink, followed by dotted hairline and centered motto '- [THEMATIC_MOTTO] -', strictly zero procedural prompt leakage.
+```
 
 #### 4.3 静默纯正向词法（Pure Positive Affirmation）
 严禁在提示词中使用任何 "No 3D, without anime" 等否定词汇，严禁生成 Negative Prompt 代码块。全篇仅使用纯正向时尚摄影、高级服装设计、剧组定妆与画册排版专业词汇！

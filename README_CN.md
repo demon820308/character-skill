@@ -9,7 +9,9 @@
 [![画风模态](https://img.shields.io/badge/%E7%94%BB%E9%A3%8E%E6%A8%A1%E6%80%81-%E7%9C%9F%E4%BA%BA%E6%91%84%E5%BD%B1%20%7C%203D%20CG%20%7C%20%E4%BA%8C%E6%AC%A1%E5%85%83-orange.svg)](#两维正交矩阵引擎)
 [![双语支持](https://img.shields.io/badge/%E8%AF%AD%E8%A8%80-%E4%B8%AD%E6%96%87%20%7C%20English-blueviolet.svg)](README.md)
 
-[简体中文](README_CN.md) · [English](README.md) · [规范源码 (中文版)](skill.md) · [规范源码 (英文版)](Skill-En.md)
+[简体中文](README_CN.md) · [English](README.md)
+
+**全套规范**: [通用角色蓝图 (中)](skill.md) · [通用角色蓝图 (英)](Skill-En.md) · [影视服化道圣经 (中)](visdev.md) · [影视服化道圣经 (英)](visdev-En.md) · [3D皮克斯动画资产 (中)](pixar-3d-asset.md) · [3D皮克斯动画资产 (英)](pixar-3d-asset-En.md)
 
 </div>
 
@@ -83,6 +85,28 @@
 
 <div align="center">
   <img src="assets/05_seraphina_benchmark.jpg" width="85%" alt="唯美标杆展示板 - 夕瑶" />
+</div>
+
+---
+
+### 6. 国际顶级影视视觉开发与剧组服化道圣经 (`影视概念与高奢服化道分支`)
+> **角色**: 李梦婷 (Li Mengting) · 时装模特 (Fashion Model)  
+> **核心规范**: [visdev.md](visdev.md) (中文) · [visdev-En.md](visdev-En.md) (英文)  
+> **核心特性**: 2:3 纵向黄金画幅、Didot 双行主题色巨标、九头身全身正/侧/背定妆三视图、6 联全彩演艺微表情摄影肖像、法式碎花抹胸裙与褶皱裙立体平铺解构(Flat-lay)、独立耳骨夹与手链悬浮展台、无编号 2×2 光学微距四宫格、工业 6 色 HEX 色卡与艺术小传手写签名。
+
+<div align="center">
+  <img src="assets/06_li_mengting_visdev.jpg" width="85%" alt="影视视觉开发与服化道圣经 - 李梦婷" />
+</div>
+
+---
+
+### 7. 好莱坞顶级 3D 皮克斯动画角色资产与 LookDev 模型板 (`长片动画视效与资产分支`)
+> **角色**: 夕瑶 (Xiyao) · 星轨学院学员 (Academy Student)  
+> **核心规范**: [pixar-3d-asset.md](pixar-3d-asset.md) (中文) · [pixar-3d-asset-En.md](pixar-3d-asset-En.md) (英文)  
+> **核心特性**: 2:3 纵向黄金画幅、40% 统治级主体全身大立绘(Hero Shot)、全彩正交转台三视图（正/侧/背）、皮克斯长片标志性 Squash-and-Stretch 夸张生动六联表情矩阵、星轨校服薄纱裙与微光圆环材质拆解、4 组次表面着色器材质球(SSS皮肤/光纤/雪纺/金属)、2×2 微距四宫格与纯 HEX 色卡系统。
+
+<div align="center">
+  <img src="assets/07_xiyao_pixar_3d_asset.jpg" width="85%" alt="3D皮克斯动画角色资产与LookDev模型板 - 夕瑶" />
 </div>
 
 ---
@@ -182,9 +206,15 @@ character-skill/
 │   ├── 02_lucy_andor_real_photo.jpg
 │   ├── 03_wang_yiting_3d_game.png
 │   ├── 04_balagui_3d_stylized.jpg
-│   └── 05_seraphina_benchmark.jpg
-├── skill.md                    # 核心 Skill 工业规范源码 (中文版)
-├── Skill-En.md                 # 核心 Skill 工业规范源码 (英文版)
+│   ├── 05_seraphina_benchmark.jpg
+│   ├── 06_li_mengting_visdev.jpg
+│   └── 07_xiyao_pixar_3d_asset.jpg
+├── skill.md                    # 通用角色蓝图规范源码 (中文版)
+├── Skill-En.md                 # 通用角色蓝图规范源码 (英文版)
+├── visdev.md                   # 影视服化道圣经规范源码 (中文版)
+├── visdev-En.md                # 影视服化道圣经规范源码 (英文版)
+├── pixar-3d-asset.md           # 3D皮克斯动画资产规范源码 (中文版)
+├── pixar-3d-asset-En.md        # 3D皮克斯动画资产规范源码 (英文版)
 ├── README.md                   # 英文说明文档
 └── README_CN.md                # 中文说明文档
 ```
